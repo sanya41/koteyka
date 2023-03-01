@@ -8,6 +8,7 @@ body {
 .container {
     max-width: 1170px;
     margin: 0 auto;
+    padding-left: 100px;
 }
 
 .header-top {
@@ -40,37 +41,46 @@ body {
     padding: 0;
 }
 
-.features {
-    display: flex;
-    flex-direction: column;
-    background-image: url(images/Group\ 51.jpg);
+.promo {
+    background-image: url("images/promo-background");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 504px;
+    min-height: 504px;
 }
 
-.features h2 {
+.promo .container {
+    padding-left: 140px;
+    padding-top: 140px;
+}
+
+.promo h2 {
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 62px;
+    margin: 0;
 }
 
-.features h3 {
+.promo p {
+    margin: 0;
+}
+
+.promo p.cite {
     line-height: 25px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
 }
 
-.features .btns {
-    width: 206px;
-    height: 50px;
+.promo .button {
+    padding: 15px 53px 15px 20px;
     border-radius: 25px;
     border: 0;
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    padding-right: 30px;
     margin-top: 40px;
     background-color: #fff;
     background-image: url("images/paw.png");
@@ -78,16 +88,10 @@ body {
     background-position: 95%; 
 }
 
-.features .btns:hover {
+.promo .button:hover {
     opacity: 0.9;
     cursor: pointer;
     box-shadow: 0 2px 0 0 rgba(23, 3, 3, 0.5);
 }
 
-.features .cont {
-    display: inline;
-    width: 70%;
-    align-self: center;
-    line-height: 0px;
-    margin-top: 120px;
-} 
+
