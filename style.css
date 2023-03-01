@@ -42,16 +42,16 @@ body {
 }
 
 .promo {
-    background-image: url("images/promo-background");
+    background-image: url("images/promo-background.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 504px;
+    padding-top: 140px;
+    padding-bottom: 140px;
 }
 
 .promo .container {
     padding-left: 140px;
-    padding-top: 140px;
 }
 
 .promo h2 {
@@ -66,7 +66,7 @@ body {
     margin: 0;
 }
 
-.promo p.cite {
+.promo .cite {
     line-height: 25px;
     font-weight: 500;
     font-size: 20px;
