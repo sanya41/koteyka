@@ -85,7 +85,9 @@ body {
 }
 
 .features .cont {
+    display: inline;
     width: 70%;
     align-self: center;
     line-height: 0px;
+    margin-top: 120px;
 } 
