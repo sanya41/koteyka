@@ -99,11 +99,14 @@ body {
     background-image: url("images/paw-big.svg");
     background-repeat: no-repeat;
     background-position: 100% 0; 
+    padding-top: 98px;
+    padding-bottom: 98px;
 }
 
 .advantages .container {
     padding: 0;
-    margin: 140px 98px 140px 98px;
+    margin-left: 140px;
+    margin-right: 140px;
 }
 
 .advantages h2 {
@@ -126,7 +129,7 @@ body {
 
 }
 
-.advantages li {
+.advantages .advantages-item {
     list-style: none;
     font-style: normal;
     font-weight: 400;
