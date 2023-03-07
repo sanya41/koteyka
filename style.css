@@ -176,7 +176,7 @@ body {
     position: relative;
 }
 
-.rooms .room-1 {
+.rooms .room {
     display: flex;
     flex-direction: row;
 }
@@ -201,35 +201,43 @@ body {
 
 .rooms h2 {
     text-align: center;
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 43px;
 }
 
-.rooms p {
-    font-family: 'Rubik';
+.rooms h3 {
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
     line-height: 26px;
     margin: 0;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
-.rooms ul {
+.rooms dl {
     font-family: 'Lato', sans-serif;
-    padding-left: 20px;
     margin: 0;
 }
 
-.rooms li {
-    list-style-image: url(images/Ellipse.png);
-    padding-bottom: 20px;
+.rooms dt {
+    display: inline-block;
+    background-image: url(images/Ellipse.png);
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    margin-bottom: 20px;
+    padding-left: 20px;
 }
 
-.rooms li:last-child {
+.rooms dd {
+   display: inline-block;
+   margin-left: 0;
+}
+
+.rooms dt:last-child {
     padding-bottom: 0;
 }
 
@@ -256,7 +264,7 @@ body {
     box-shadow: 0 2px 0 0 rgba(23, 3, 3, 0.5);
 }
 
-.rooms .slider-dot {
+.rooms .buttons-dot {
     display: flex;
     margin-right: 168px;
     margin-top: 48px;
@@ -264,14 +272,15 @@ body {
     justify-content: center;
 }
 
-.rooms .slider {
+.rooms .buttons {
     position: absolute;
     right: 168px;
     top: 522px;
 }
 
-.rooms .button-left {
-    background-image: url("images/strelca-left.png");
+.rooms .button-left,
+.rooms .button-right {
+    background-image: url("images/Arrow-left.png");
     background-repeat: no-repeat;
     background-position: center;
     background-color: #fff;
@@ -284,16 +293,7 @@ body {
 }
 
 .rooms .button-right {
-    background-image: url("images/strelca-right.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #fff;
-    border: 0;
-    border-radius: 50%;
-    width: 36px;
-    height: 36px;
-    box-shadow: 0px 2px 12px rgba(173, 152, 143, 0.25);
-    margin: 5px;
+    background-image: url("images/Arrow-right.png");
 }
 
 .rooms .button-dot {
@@ -305,7 +305,7 @@ body {
     justify-content: center;
 }
 
-.rooms .slider-dot .but-1 {
+.rooms .buttons-dot .but-1 {
     background-color: #FAC663;
 }
 
