@@ -105,8 +105,7 @@ body {
 
 .advantages .container {
     padding: 0;
-    margin-left: 140px;
-    margin-right: 140px;
+
 }
 
 .advantages h2 {
@@ -420,7 +419,6 @@ body {
 
 .contact .container {
     padding: 0;
-    margin-left: 200px;
     margin-top: 70px;
 }
 
@@ -434,7 +432,7 @@ body {
 }
 
 .contact dt {
-    font-family: 'Lato', sans-serif;
+
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -443,7 +441,7 @@ body {
 }
 
 .contact dd {
-    font-family: 'Lato', sans-serif;
+    
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -452,4 +450,27 @@ body {
 
 .contact .links a {
     margin-right: 20px;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+}
+
+.contact .links a:last-child {
+    margin-right: 0;
+}
+
+.contact a.facebook {
+    background-image: url("images/facebook.svg");
+    
+}
+
+.contact a.instagram {
+    background-image: url("images/instagram.svg");
+
+}
+
+.contact a.vkontacte {
+    background-image: url("images/facebook.svg");
+
 }
