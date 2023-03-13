@@ -412,5 +412,44 @@ body {
     background-color: #FAC663;
 } 
 
+.contact {
+    display: flex;
+    background-color: #FAC663;
+    position: relative;
+}
 
+.contact .container {
+    padding: 0;
+    margin-left: 200px;
+    margin-top: 70px;
+}
 
+.contact h2 {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.contact dt {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.contact dd {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 0;
+}
+
+.contact .links a {
+    margin-right: 20px;
+}
