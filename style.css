@@ -12,13 +12,15 @@ body {
     padding-left: 100px;
 }
 
-.header-top {
+.header-top,
+.footer-top {
     display: flex;
     justify-content: space-between;
 }
 
 
-.page-header a {
+.page-header a,
+.page-footer a {
     display: block;
     text-decoration: none;
     color: #1A212F;
@@ -30,7 +32,8 @@ body {
     transition: 0.2s background-color ease;
 }
 
-.page-header a:hover {
+.page-header a:hover,
+.page-footer a:hover {
     background-color: lightgray;
 }
 
@@ -420,6 +423,7 @@ body {
 .contact .container {
     padding: 0;
     margin-top: 70px;
+    margin-bottom: 50px;
 }
 
 .contact h2 {
@@ -474,3 +478,25 @@ body {
     background-image: url("images/facebook.svg");
 
 }
+
+.page-footer .container {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+.page-footer .copyright  {
+    border-top: 3px solid #EFEFEF;
+    display: flex; 
+    justify-content: space-around;
+    color: #8F8F8F;
+    font-weight: 400;
+    font-size: 12px;
+    
+}
+
+.page-footer .copyright p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
