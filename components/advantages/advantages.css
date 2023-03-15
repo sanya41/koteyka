@@ -1,0 +1,72 @@
+.advantages  {
+    background-image: url("images-advantages/paw-big.svg");
+    background-repeat: no-repeat;
+    background-position: 100% 0; 
+    padding-top: 98px;
+    padding-bottom: 98px;
+}
+
+.advantages .container {
+    padding: 0;
+
+}
+
+.advantages h2 {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 70px;
+   
+}
+
+.advantages ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+.advantages .advantages-item {
+    list-style: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    margin: 15px;
+    box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+    border-radius: 8px;
+    padding-top: 130px;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-position: 30px 30px;
+    min-width: 330px;
+}
+
+.advantages .advantages-item.gradus {
+    background-image: url("images-advantages/img-gradus.png");
+}
+
+.advantages .advantages-item.camera {
+    background-image: url("images-advantages/img-camera.png");
+}
+
+.advantages .advantages-item.taxi {
+    background-image: url("images-advantages/img-taxi.png");
+}
+
+.advantages .advantages-item.eat {
+    background-image: url("images-advantages/img-eat.png");
+}
+
+.advantages .advantages-item.walk {
+    background-image: url("images-advantages/img-walk.png");
+}
+
+.advantages .advantages-item.veterinarian {
+    background-image: url("images-advantages/img-veterinarian.png");
+}
