@@ -480,19 +480,20 @@ body {
 }
 
 .page-footer .container {
-    padding-left: 200px;
-    padding-right: 200px;
+    max-width: 1000px;
+    padding: 0;
 }
 
 
 .page-footer .copyright  {
     border-top: 3px solid #EFEFEF;
-    display: flex; 
-    justify-content: space-between;
     color: #8F8F8F;
     font-size: 12px;
-    padding-left: 200px;
-    padding-right: 200px;
+}
+
+.page-footer .copyright .container {
+    display: flex; 
+    justify-content: space-between;
 }
 
 .page-footer .copyright p {
