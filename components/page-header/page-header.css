@@ -1,10 +1,10 @@
-.header-top {
+.page-header__header-top {
     display: flex;
     justify-content: space-between;
 }
 
 
-.page-header a {
+.page-header .page-header__link {
     display: block;
     text-decoration: none;
     color: #1A212F;
@@ -20,7 +20,7 @@
     background-color: lightgray;
 }
 
-.main-nav {
+.page-header__main-nav {
     display: flex;
     flex-direction: row;
     list-style: none;
