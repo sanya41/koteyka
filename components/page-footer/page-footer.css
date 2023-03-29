@@ -1,10 +1,10 @@
-.footer-top {
+.page-footer__footer-top {
     display: flex;
     justify-content: space-between;
 }
 
 
-.page-footer a {
+.page-footer__link {
     display: block;
     text-decoration: none;
     color: #1A212F;
@@ -16,11 +16,11 @@
     transition: 0.2s background-color ease;
 }
 
-.page-footer a:hover {
+.page-footer__link:hover {
     background-color: lightgray;
 }
 
-.main-nav {
+.page-footer__main-nav {
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -34,18 +34,18 @@
 }
 
 
-.page-footer .copyright  {
+.page-footer__copyright  {
     border-top: 3px solid #EFEFEF;
     color: #8F8F8F;
     font-size: 12px;
 }
 
-.page-footer .copyright .container {
+.page-footer__container {
     display: flex; 
     justify-content: space-between;
 }
 
-.page-footer .copyright p {
+.page-footer__paragraph {
     margin-top: 20px;
     margin-bottom: 20px;
 }

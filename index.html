@@ -46,53 +46,53 @@
 
         <article class="advantages">
             <div class="container">
-                <h2>Почему мы?</h2>
-                <ul>
-                    <li class="advantages-item gradus">
+                <h2 class="advantages__heading">Почему мы?</h2>
+                <ul class="advantages__list">
+                    <li class="advantages__advantages-item gradus">
                         <h3>Комфортная температура</h3>
-                        <p>
+                        <p class="advantages__paragraph">
                             Во всех номерах поддерживается<br>
                             комфортная температура в пределах<br>
                             23 - 25 градусов. В каждом номере<br>
                             можно дополнительно отрегулировать<br> температуру. 
                         </p>
                     </li>
-                    <li class="advantages-item camera">
+                    <li class="advantages__advantages-item camera">
                         <h3>Видеонаблюдение</h3>
-                        <p>
+                        <p class="advantages__paragraph">
                             Мы предоставляем доступ в нашу<br>
                             систему. Вы сможете следить<br>
                             за своим питомцем со своего<br>
                             смартфона или компьютера.
                         </p>
                     </li>
-                    <li class="advantages-item taxi">
+                    <li class="advantages__advantages-item taxi">
                         <h3>Услуги Зоотакси</h3>
-                        <p>
+                        <p class="advantages__paragraph">
                             Мы приедем за вашим питомцем<br>
                             в любой район Санкт-Петербурга.
                         </p>
                     </li>
-                    <li class="advantages-item eat">
+                    <li class="advantages__advantages-item eat">
                         <h3>Сбалансированное питание</h3>
-                        <p>
+                        <p class="advantages__paragraph">
                             Вы можете привезти свой корм<br>
                             или доверить рацион своего<br>
                             питомца нашим профессионалам.
                         </p>
                     </li>
-                    <li class="advantages-item walk">
+                    <li class="advantages__advantages-item walk">
                         <h3>Ежедневные прогулки</h3>
-                        <p>
+                        <p class="advantages__paragraph">
                             По вашему желанию мы выгуливаем<br>
                             вашего питомца два раза в день<br>
                             на специализированной закрытой<br>
                             территории.
                         </p>
                     </li>
-                    <li class="advantages-item veterinarian">
+                    <li class="advantages__advantages-item veterinarian">
                         <h3>Лучшие ветеринары</h3>
-                        <p>
+                        <p class="advantages__paragraph">
                             В гостинице 24 часа дежурит<br>
                             ветеринарный врач, который окажет<br> 
                             любую помощь в случае необходимости.
@@ -103,165 +103,178 @@
         </article>
 
         <article class="rooms">
-            <h2>Номера</h2>
+            <h2 class="rooms__heading">Номера</h2>
             <div class="container">
-                <ul class="rooms-slide">
-                    <li class="room">
-                        <img class="rooms-image" src="images/rooms-1.jpg" alt="Комната №1">
-                        <nav class="box">
-                            <h3>Эконом плюс</h3>
-                            <dl>
+                <ul class="rooms__slider">
+                    <li class="rooms__slide">
+                        <img class="rooms__image" src="images/rooms-1.jpg" alt="Комната №1">
+                        <nav class="rooms__box">
+                            <h3 class="rooms__title">Эконом плюс</h3>
+                            <dl class="rooms__characteristics">
                                 <div>
-                                    <dt>Площадь</dt> 
-                                    <dd>- 0,90 м2</dd>
+                                    <dt class="rooms__characteristic-name">Площадь</dt> 
+                                    <dd class="rooms__characteristic-value">- 0,90 м2</dd>
                                 </div>
                                 <div>
-                                    <dt>Размеры (ШхГхВ)</dt>
-                                    <dd> — 90х100х180 см</dd>
+                                    <dt class="rooms__characteristic-name">Размеры (ШхГхВ)</dt>
+                                    <dd class="rooms__characteristic-value"> — 90х100х180 см</dd>
                                 </div>
                                 <div>
-                                    <dt>Цена за сутки:</dt> 
-                                    <dd>200₽</dd>
+                                    <dt class="rooms__characteristic-name">Цена за сутки:</dt> 
+                                    <dd class="rooms__characteristic-value">200₽</dd>
                                 </div>
                             </dl>
-                            <button class="button">         
+                            <button class="rooms__button">         
                                 Забронировать
                             </button>
                         </nav>
                     </li>
-                    <li class="room room-2">
-                        <img class="rooms-image" src="images/rooms-2.png" alt="Комната №2">
-                        <div class="box">
-                            <h3>Комфорт</h3>
+                    <li class="rooms__slide rooms__slide_2">
+                        <img class="rooms__image" src="images/rooms-2.png" alt="Комната №2">
+                        <nav class="rooms__box">
+                            <h3 class="rooms__title">Комфорт</h3>
                             <dl>
-                                <dt>Площадь</dt>
-                                <dd> - 1,13 м2</dd>
-                                <dt>Размеры (ШхГхВ)</dt>
-                                <dd> - 100х125х180 см</dd>
-                                <dt>Цена за сутки:</dt> <dd>250₽</dd>
+                                <div>
+                                    <dt class="rooms__characteristic-name">Площадь</dt>
+                                    <dd class="rooms__characteristic-value"> - 1,13 м2</dd>
+                                </div>
+                                <div>
+                                    <dt class="rooms__characteristic-name">Размеры (ШхГхВ)</dt>
+                                    <dd class="rooms__characteristic-value"> - 100х125х180 см</dd>
+                                </div>
+                                <div>
+                                    <dt class="rooms__characteristic-name">Цена за сутки:</dt> 
+                                    <dd class="rooms__characteristic-value">250₽</dd>
+                                </div>
                             </dl>
-                            <button class="button">         
+                            <button class="rooms__button">         
                                 Забронировать
                             </button>
-                        </div>
+                        </nav>
                     </li>
-                    <li class="room room-3">
+                    <li class="rooms__slide rooms__slide_3">
                         <img class="rooms-image" src="images/rooms-3.png" alt="Комната №3">
-                        <nav class="box">
-                            <h3>Сьют</h3>
+                        <nav class="rooms__box">
+                            <h3 class="rooms__title">Сьют</h3>
                             <dl>
-                                <dt>Площадь</dt> 
-                                <dd>- 1,56 м2</dd>
-                                <dt>Размеры (ШхГхВ)</dt>
-                                <dd> - 125х125х180 см</dd>
-                                <dt>Цена за сутки:</dt>
-                                <dd> 350₽</dd>
+                                <div>
+                                    <dt class="rooms__characteristic-name">Площадь</dt> 
+                                    <dd class="rooms__characteristic-value">- 1,56 м2</dd>
+                                </div>
+                                <div>
+                                    <dt class="rooms__characteristic-name">Размеры (ШхГхВ)</dt>
+                                    <dd class="rooms__characteristic-value"> - 125х125х180 см</dd>
+                                </div>
+                                <div>
+                                    <dt class="rooms__characteristic-name">Цена за сутки:</dt>
+                                    <dd class="rooms__characteristic-value"> 350₽</dd>
+                                </div>
                             </dl>
-                            <button class="button">         
+                            <button class="rooms__button">         
                                 Забронировать
                             </button>
                         </nav>
                     </li>
                 </ul>
-                    <div class="buttons-dot">
-                        <button class="button-dot but-1"></button>
-                        <button class="button-dot but-2"></button>
-                        <button class="button-dot but-3"></button>
+                    <div class="rooms__buttons-dot">
+                        <button class="rooms__button-dot rooms__button-dot_but-1"></button>
+                        <button class="rooms__button-dot rooms__button-dot_but-2"></button>
+                        <button class="rooms__button-dot rooms__button-dot_but-3"></button>
                     </div>
-                    <div class="buttons">
-                        <button class="button-left"></button>
-                        <button class="button-right"></button>
+                    <div class="rooms__arrows">
+                        <button class="rooms__arrow rooms__arrow_left"></button>
+                        <button class="rooms__arrow rooms__arrow_right"></button>
                     </div>
             </div> 
         </article>
 
         <article class="reviews">
-            <h2>Отзывы</h2>
-            <ul>
-                <li>
-                    <blockquote>
-                        <p>
+            <h2 class="reviews__heading">Отзывы</h2>
+            <ul class="reviews__slider">
+                <li class="reviews__slide">
+                    <blockquote class="reviews__quote">
+                        <p class="reviews__paragraph">
                         Первый раз пришлось оставить нашего котика
                         в гостинице, очень переживали. Администратор
                         Мария каждый день высылала нам фото нашего
                         питомца, рассказывала, как он себя чувствует.
                         И мы и котик остались очень довольны!
                         </p>
-                        <footer>
+                        <footer class="reviews__basement">
                             <cite>Валерия Гришаева</cite>
                             <time>15 ноября, 2019</time>
                         </footer>
                     </blockquote>
                 </li>
-                <li>
-                    <blockquote>
-                        <p>
+                <li class="reviews__slide">
+                    <blockquote class="reviews__quote">
+                        <p class="reviews__paragraph">
                             Гостиницу для питомцев нам посоветовали
                             друзья. Они всегда оставляют здесь своего кота,
                             когда уезжают. В “Котейке” очень хорошо
                             заботятся о питомцах, в гостинице очень чисто.
                             Всем рекомендую! Будем обращаться еще.
                         </p>
-                        <footer>
+                        <footer class="reviews__basement">
                             <cite>Екатерина Минаева</cite>
                             <time>10 октября, 2019</time>
                         </footer>
                     </blockquote>
                 </li>
-                <li>
-                    <blockquote>
-                        <p>
+                <li class="reviews__slide">
+                    <blockquote class="reviews__quote">
+                        <p class="reviews__paragraph">
                             Мой кот — настоящая привереда, угодить ему
                             сложно. У меня были особые требования к
                             уходу за ним, и “Котейка” отлично справились.
                             Я часто наблюдал по видео за питомцем со
                             своего телефона, это очень удобно. 
                         </p>
-                        <footer>
+                        <footer class="reviews__basement">
                             <cite>Павел Нечаев</cite>
                         </footer>
                     </blockquote>
                 </li>
             </ul>
-            <div class="buttons-dot">
-                <button class="button-dot but-1"></button>
-                <button class="button-dot but-2"></button>
-                <button class="button-dot but-3"></button>
+            <div class="reviews__buttons-dot">
+                <button class="reviews__button-dot reviews__button-dot_but-1"></button>
+                <button class="reviews__button-dot reviews__button-dot_but-2"></button>
+                <button class="reviews__button-dot reviews__button-dot_but-3"></button>
             </div>
-            <div class="buttons">
-                <button class="button-left"></button>
-                <button class="button-right"></button>
+            <div class="reviews__arrows">
+                <button class="reviews__arrow reviews__arrow_left"></button>
+                <button class="reviews__arrow reviews__arrow_right"></button>
             </div>
         </article>
 
         <article class="contact">
             <div class="container">
-                <h2>Как нас найти</h2>
-                <dl>
+                <h2 class="contact__heading">Как нас найти</h2>
+                <dl class="contact__characteristics">
                     <div>
-                        <dt>Адрес</dt>      
-                        <dd>Санкт-Петербург, <br>
+                        <dt class="contact__characteristic-name">Адрес</dt>      
+                        <dd class="contact__characteristic-value">Санкт-Петербург, <br>
                             ул Большая Конюшенная, д 19
                         </dd>
                     </div>
                     <div>
-                        <dt>Режим работы</dt>
-                        <dd>Ежедневно, с 9:00 до 20:00</dd>
+                        <dt class="contact__characteristic-name">Режим работы</dt>
+                        <dd class="contact__characteristic-value">Ежедневно, с 9:00 до 20:00</dd>
                     </div> 
                     <div>
-                        <dt>Телефон</dt> 
-                        <dd>8 (800) 333-55-99</dd> 
+                        <dt class="contact__characteristic-name">Телефон</dt> 
+                        <dd class="contact__characteristic-value">8 (800) 333-55-99</dd> 
                     </div> 
                     <div>
-                        <dt>E-mail</dt>
-                        <dd>info@cat-hotel.ru</dd> 
+                        <dt class="contact__characteristic-name">E-mail</dt>
+                        <dd class="contact__characteristic-value">info@cat-hotel.ru</dd> 
                     </div>  
                     <div>
-                        <dt>Социальные сети</dt>
-                        <dd class="links"> 
-                            <a class="facebook" href="#"></a>
-                            <a class="instagram" href="#"></a>
-                            <a class="vkontacte" href="#"></a>
+                        <dt class="contact__characteristic-name">Социальные сети</dt>
+                        <dd class="contact__links"> 
+                            <a class="contact__link contact__link_facebook" href="#"></a>
+                            <a class="contact__link contact__link_instagram" href="#"></a>
+                            <a class="contact__link contact__link_vkontacte" href="#"></a>
                         </dd>
                     </div> 
                 </dl>
@@ -270,21 +283,21 @@
         </article>
 
         <footer class="page-footer">
-            <div class="container footer-top">
+            <div class="page-footer__footer-top container">
                 <img src="images/logo.svg" alt="логотип">
                 <nav>
-                    <ul class="main-nav">
-                        <li><a href="#">Почему мы?</a></li>
-                        <li><a href="#">Номера</a></li>
-                        <li><a href="#">Отзывы</a></li>
-                        <li><a href="#">Как нас найти</a></li>
+                    <ul class="page-footer__main-nav">
+                        <li><a class="page-footer__link" href="#">Почему мы?</a></li>
+                        <li><a class="page-footer__link" href="#">Номера</a></li>
+                        <li><a class="page-footer__link" href="#">Отзывы</a></li>
+                        <li><a class="page-footer__link" href="#">Как нас найти</a></li>
                     </ul>
                 </nav>
             </div>
-            <div class="copyright">
-                <div class="container">
-                    <p>© 2019 Все права защищены</p>
-                    <p>Политика конфиденциальности</p>
+            <div class="page-footer__copyright">
+                <div class="page-footer__container container">
+                    <p class="page-footer__paragraph">© 2019 Все права защищены</p>
+                    <p class="page-footer__paragraph">Политика конфиденциальности</p>
                 </div>
             </div>
         </footer>

@@ -4,17 +4,17 @@
     position: relative;
 }
 
-.rooms .room {
+.rooms__slide {
     display: flex;
     flex-direction: row;
 }
 
-.rooms .room-2,
-.rooms .room-3 {
+.rooms__slide_2, 
+.rooms__slide_3 {
     display: none;
-}
+} 
 
-.rooms .box {
+.rooms__box {
     background: #FFFFFF;
     box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
     border-radius: 8px;
@@ -27,7 +27,7 @@
     width: 500px;
 }
 
-.rooms h2 {
+.rooms__heading {
     text-align: center;
     font-family: 'Rubik', sans-serif;
     font-style: normal;
@@ -36,7 +36,7 @@
     line-height: 43px;
 }
 
-.rooms h3 {
+.rooms__title {
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -46,12 +46,12 @@
     margin-bottom: 30px;
 }
 
-.rooms dl {
+.rooms__characteristics {
     font-family: 'Lato', sans-serif;
     margin: 0;
 }
 
-.rooms dt {
+.rooms__characteristic-name {
     display: inline-block;
     background-image: url(images-rooms/Ellipse.png);
     background-repeat: no-repeat;
@@ -60,16 +60,16 @@
     padding-left: 20px;
 }
 
-.rooms dd {
+.rooms__characteristic-value {
    display: inline-block;
    margin-left: 0;
 }
 
-.rooms dt:last-child {
+.rooms__characteristic-name:last-child {
     padding-bottom: 0;
 }
 
-.rooms .button {
+.rooms__button {
     padding: 15px 53px 15px 20px;
     border-radius: 25px;
     border: 0;
@@ -92,7 +92,7 @@
     box-shadow: 0 2px 0 0 rgba(23, 3, 3, 0.5);
 }
 
-.rooms .buttons-dot {
+.rooms__buttons-dot {
     display: flex;
     margin-right: 168px;
     margin-top: 48px;
@@ -100,14 +100,13 @@
     justify-content: center;
 }
 
-.rooms .buttons {
+.rooms__arrows {
     position: absolute;
     right: 168px;
     top: 522px;
 }
 
-.rooms .button-left,
-.rooms .button-right {
+.rooms__arrow {
     background-image: url("images-rooms/Arrow-left.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -120,11 +119,11 @@
     margin: 5px;
 }
 
-.rooms .button-right {
+.rooms__arrow_right {
     background-image: url("images-rooms/Arrow-right.png");
 }
 
-.rooms .button-dot {
+.rooms__button-dot {
     border-radius: 50%;
     width: 12px;
     height: 12px;
@@ -133,6 +132,6 @@
     justify-content: center;
 }
 
-.rooms .buttons-dot .but-1 {
+.rooms__buttons-dot .rooms__button-dot_but-1 {
     background-color: #FAC663;
 }

@@ -6,7 +6,7 @@
     position: relative;
 }
 
-.reviews h2 {
+.reviews__heading {
     text-align: center;
     font-family: 'Rubik';
     font-style: normal;
@@ -16,11 +16,11 @@
     margin-bottom: 70px;
 }
 
-.reviews ul {
+.reviews__slider {
     display: flex;
 }
 
-.reviews li {
+.reviews__slide {
     list-style: none;
     background-image: url("images-rewiews/quotation-mark.svg");
     background-repeat: no-repeat;
@@ -36,18 +36,18 @@
     width: 30%;
 }
 
-.reviews blockquote {
+.reviews__quote {
     margin: 0;
 }
 
-.reviews p {
+.reviews__paragraph {
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     font-size: 16px;
     margin-top: 0;
 }
 
-.reviews footer {
+.reviews__basement {
     display: flex;
     justify-content: space-between;
     font-family: 'Lato';
@@ -58,21 +58,20 @@
     color: #848484;
 }
 
-.reviews .buttons-dot {
+.reviews__buttons-dot {
     display: flex;
     margin-top: 48px;
     margin-bottom: 112px;
     justify-content: center;
 }
 
-.reviews .buttons {
+.reviews__arrows {
     position: absolute;
     right: 168px;
     bottom: 1px;
 }
 
-.reviews .button-left,
-.reviews .button-right {
+.reviews__arrow {
     background-image: url("images-rewiews/Arrow-left.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -85,11 +84,11 @@
     margin: 5px;
 }
 
-.reviews .button-right {
+.reviews__arrow_right {
     background-image: url("images-rewiews/Arrow-right.png");
 }
 
-.reviews .button-dot {
+.reviews__button-dot {
     border-radius: 50%;
     width: 12px;
     height: 12px;
@@ -97,6 +96,6 @@
     margin: 6px;
 }
 
-.reviews .buttons-dot .but-1 {
+.reviews__buttons-dot .reviews__button-dot_but-1 {
     background-color: #FAC663;
 } 

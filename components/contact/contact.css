@@ -10,7 +10,7 @@
     margin-bottom: 50px;
 }
 
-.contact h2 {
+.contact__heading {
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -19,7 +19,7 @@
     margin-bottom: 50px;
 }
 
-.contact dt {
+.contact__characteristic-name {
 
     font-style: normal;
     font-weight: 700;
@@ -28,7 +28,7 @@
     margin-bottom: 15px;
 }
 
-.contact dd {
+.contact__characteristic-value {
     
     font-style: normal;
     font-weight: 400;
@@ -36,7 +36,11 @@
     margin-left: 0;
 }
 
-.contact .links a {
+.contact__links {
+    margin-left: 0;
+}
+
+.contact__link {
     margin-right: 20px;
     display: inline-block;
     width: 22px;
@@ -44,21 +48,18 @@
     background-repeat: no-repeat;
 }
 
-.contact .links a:last-child {
+.contact__link:last-child {
     margin-right: 0;
 }
 
-.contact a.facebook {
+.contact__link_facebook {
     background-image: url("images-contact/facebook.svg");
-    
 }
 
-.contact a.instagram {
+.contact__link_instagram {
     background-image: url("images-contact/instagram.svg");
-
 }
 
-.contact a.vkontacte {
+.contact__link_vkontacte {
     background-image: url("images-contact/vkontacte.svg");
-
 }

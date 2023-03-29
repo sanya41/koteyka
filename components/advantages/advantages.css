@@ -11,7 +11,7 @@
 
 }
 
-.advantages h2 {
+.advantages .advantages__heading {
     text-align: center;
     font-family: 'Rubik', sans-serif;
     font-style: normal;
@@ -22,7 +22,7 @@
    
 }
 
-.advantages ul {
+.advantages .advantages__list {
     display: flex;
     flex-wrap: wrap;
     align-self: center;
@@ -31,7 +31,7 @@
 
 }
 
-.advantages .advantages-item {
+.advantages .advantages__advantages-item {
     list-style: none;
     font-style: normal;
     font-weight: 400;
@@ -47,26 +47,26 @@
     min-width: 330px;
 }
 
-.advantages .advantages-item.gradus {
+.advantages .advantages__advantages-item.gradus {
     background-image: url("images-advantages/img-gradus.png");
 }
 
-.advantages .advantages-item.camera {
+.advantages .advantages__advantages-item.camera {
     background-image: url("images-advantages/img-camera.png");
 }
 
-.advantages .advantages-item.taxi {
+.advantages .advantages__advantages-item.taxi {
     background-image: url("images-advantages/img-taxi.png");
 }
 
-.advantages .advantages-item.eat {
+.advantages .advantages__advantages-item.eat {
     background-image: url("images-advantages/img-eat.png");
 }
 
-.advantages .advantages-item.walk {
+.advantages .advantages__advantages-item.walk {
     background-image: url("images-advantages/img-walk.png");
 }
 
-.advantages .advantages-item.veterinarian {
+.advantages .advantages__advantages-item.veterinarian {
     background-image: url("images-advantages/img-veterinarian.png");
 }
