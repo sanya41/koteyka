@@ -96,6 +96,6 @@
     margin: 6px;
 }
 
-.reviews__buttons-dot .reviews__button-dot_but-1 {
+.reviews__buttons-dot:nth-child(1) {
     background-color: #FAC663;
 } 

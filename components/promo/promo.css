@@ -9,11 +9,11 @@
     padding-bottom: 140px;
 }
 
-.promo .container {
+.promo__container {
     padding-left: 140px;
 }
 
-.promo .promo__heading {
+.promo__heading {
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -21,18 +21,18 @@
     margin: 0;
 }
 
-.promo .promo__paragraph {
+.promo__paragraph {
     margin: 0;
 }
 
-.promo .promo__cite {
+.promo__cite {
     line-height: 25px;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
 }
 
-.promo .promo__button {
+.promo__button {
     padding: 15px 53px 15px 20px;
     border-radius: 25px;
     border: 0;
@@ -47,7 +47,7 @@
     background-position: 95%; 
 }
 
-.promo .promo__button:hover {
+.promo__button:hover {
     opacity: 0.9;
     cursor: pointer;
     box-shadow: 0 2px 0 0 rgba(23, 3, 3, 0.5);
