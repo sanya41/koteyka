@@ -12,7 +12,7 @@ body {
     padding-left: 100px;
 }
 
-.main-button {
+.button {
     padding: 15px 53px 15px 20px;
     border-radius: 25px;
     border: 0;
@@ -20,15 +20,21 @@ body {
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    color: #FFFEFD;
-    background-image: url("images/paw-2.svg");
     background-repeat: no-repeat;
     background-position: 95%; 
-    background-color: #FF7236;
 }
 
+.button_secondary {
+    background-image: url("images-promo/paw.png");
+    background-color: #fff;
+    color: #000;
+}
 
-
+.button_primary {
+    background-image: url("images/paw-2.svg");
+    background-color: #FF7236;
+    color: #FFFEFD;
+}
 
 
 
