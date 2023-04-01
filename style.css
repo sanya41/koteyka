@@ -12,7 +12,20 @@ body {
     padding-left: 100px;
 }
 
-
+.main-button {
+    padding: 15px 53px 15px 20px;
+    border-radius: 25px;
+    border: 0;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFEFD;
+    background-image: url("images/paw-2.svg");
+    background-repeat: no-repeat;
+    background-position: 95%; 
+    background-color: #FF7236;
+}
 
 
 
