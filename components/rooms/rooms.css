@@ -28,7 +28,7 @@
 }
 
 .rooms__heading {
-    text-align: center;
+    text-align: center;   
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -84,6 +84,7 @@
     background-position: 95%; 
     background-color: #FF7236;
     margin-top: 30px;
+    justify-content: center;
 }
 
 .rooms .button:hover {
