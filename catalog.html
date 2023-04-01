@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>koteyka</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./components/page-header/page-header.css">
+        <link rel="stylesheet" href="./components/page-footer/page-footer.css">
+        <link rel="stylesheet" href="./components/room-card/room-card.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+    <header class="page-header">
+        <div class="container page-header__header-top">
+            <img src="images/logo.svg" alt="логотип">
+            <nav>
+                <ul class="page-header__main-nav">
+                    <li><a class="page-header__link" href="#">Почему мы?</a></li>
+                    <li><a class="page-header__link "href="./catalog.html">Номера</a></li>
+                    <li><a class="page-header__link "href="#">Отзывы</a></li>
+                    <li><a class="page-header__link "href="#">Как нас найти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+        <article class="room-card">
+            <img src="images/economy-cover.png" alt="">
+            <h2 class="room-card__heading">Эконом</h2>
+            <dl class="room-card__characteristics">
+                <div>
+                    <dt class="room-card__characteristic-name">Размеры (ШхГхВ) -</dt>
+                    <dd class="room-card__characteristic-value">90х70х180 см</dd>
+                </div>
+                <div>
+                    <dt class="room-card__characteristic-name">Площадь -</dt>
+                    <dd class="room-card__characteristic-value">0,63 м2</dd>
+                </div>
+                <div class="room-card__characteristic-icon">
+                    <dt class="room-card__characteristic-name">Оснащение номера</dt>
+                    <dd class="room-card__characteristic-value room-card__characteristic-value_icon"><img src="images/slashed-zero.png"</dd>
+                </div>
+                <div>
+                    <dt class="room-card__characteristic-name">Цена за сутки:</dt>
+                    <dd class="room-card__characteristic-value room-card__characteristic-value_cost">100₽</dd>
+                </div>
+            </dl>
+            <div class="room-card__bottom">
+                <button class="room-card__button"> 
+                    Забронировать
+                </button>
+            </div>
+        </article>
+    </main>
+    <footer class="page-footer">
+        <div class="page-footer__footer-top container">
+            <img src="images/logo.svg" alt="логотип">
+            <nav>
+                <ul class="page-footer__main-nav">
+                    <li><a class="page-footer__link" href="#">Почему мы?</a></li>
+                    <li><a class="page-footer__link" href="#">Номера</a></li>
+                    <li><a class="page-footer__link" href="#">Отзывы</a></li>
+                    <li><a class="page-footer__link" href="#">Как нас найти</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="page-footer__copyright">
+            <div class="page-footer__container container">
+                <p class="page-footer__paragraph">© 2019 Все права защищены</p>
+                <p class="page-footer__paragraph">Политика конфиденциальности</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
