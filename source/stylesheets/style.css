@@ -25,13 +25,13 @@ body {
 }
 
 .button_secondary {
-    background-image: url("../images/paw.png");
+    background-image: url("/images/paw.png");
     background-color: #fff;
     color: #000;
 }
 
 .button_primary {
-    background-image: url("../images/paw-2.svg");
+    background-image: url("/images/paw-2.svg");
     background-color: #FF7236;
     color: #FFFEFD;
 }
