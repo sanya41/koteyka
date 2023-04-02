@@ -1,0 +1,21 @@
+mixin room-card()
+  article.room-card
+      img(src="images/economy-cover.png" alt="")
+      h2.room-card__heading
+      | Эконом
+      dl.room-card__characteristics
+          div
+            dt.room-card__characteristic-name Размеры (ШхГхВ) -
+            dd.room-card__characteristic-value 90х70х180 см
+          div
+            dt.room-card__characteristic-name Площадь -
+            dd.room-card__characteristic-value 0,63 м2
+          div.room-card__characteristic-icon
+            dt.room-card__characteristic-name Оснащение номера
+            dd.room-card__characteristic-value.room-card__characteristic-value_icon 
+              img(src="images/slashed-zero.png")
+          div
+            dt.room-card__characteristic-name Цена за сутки:
+            dd.room-card__characteristic-value.room-card__characteristic-value_cost 100₽
+      div.room-card__bottom
+        button.button.button_primary.room-card__button Забронировать
