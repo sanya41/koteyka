@@ -25,23 +25,22 @@ body {
 }
 
 .button_secondary {
-    background-image: url("images/paw.png");
+    background-image: url("../images/paw.png");
     background-color: #fff;
     color: #000;
 }
 
 .button_primary {
-    background-image: url("images/paw-2.svg");
+    background-image: url("../images/paw-2.svg");
     background-color: #FF7236;
     color: #FFFEFD;
 }
 
-
-
-
-
-
-
-
-
-
+@import "../components/page-header/page-header.css";
+@import "../components/promo/promo.css";
+@import "../components/advantages/advantages.css";
+@import "../components/rooms/rooms.css";
+@import "../components/rewiews/rewiews.css";
+@import "../components/contact/contact.css";
+@import "../components//page-footer/page-footer.css";
+@import "../components/room-card/room-card.css";
