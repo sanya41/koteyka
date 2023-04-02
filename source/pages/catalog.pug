@@ -13,7 +13,21 @@ include ../components/room-card/room-card.pug
     <body>
         +page-header()
         <main>
-            +room-card()
+            +room-card({
+                title: 'Эконом', 
+                image: 'images/economy-cover.png', 
+                size: '90х70х180 см',
+                square: '0,63 м2',
+                cost: '100₽'
+            })
+            
+            +room-card({
+                title: 'Эконом плюс', 
+                image: 'images/economy-plus-cover.png', 
+                size: '90х100х180 см',
+                square: '0,90 м2',
+                cost: '200₽'
+            })
         </main>
         <footer class="page-footer">
             <div class="page-footer__footer-top container">
