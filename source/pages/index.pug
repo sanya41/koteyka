@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+include ../components/page-header/page-header.pug
 <html lang="ru">
     <head>
         <meta charset="utf-8">
@@ -7,30 +8,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="./components/page-header/page-header.css">
-        <link rel="stylesheet" href="./components/promo/promo.css">
-        <link rel="stylesheet" href="./components/advantages/advantages.css">
-        <link rel="stylesheet" href="./components/rooms/rooms.css">
-        <link rel="stylesheet" href="./components/rewiews/rewiews.css">
-        <link rel="stylesheet" href="./components/contact/contact.css">
-        <link rel="stylesheet" href="./components/page-footer/page-footer.css">
     </head>
     <body>
-
-    <header class="page-header">
-        <div class="container page-header__header-top">
-            <img src="images/logo.svg" alt="логотип">
-            <nav>
-                <ul class="page-header__main-nav">
-                    <li><a class="page-header__link" href="#">Почему мы?</a></li>
-                    <li><a class="page-header__link "href="./catalog.html">Номера</a></li>
-                    <li><a class="page-header__link "href="#">Отзывы</a></li>
-                    <li><a class="page-header__link "href="#">Как нас найти</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    +page-header()
     <main>
 
         <article class="promo">
@@ -38,9 +18,7 @@
                 <p class="promo__paragraph">Санкт-Петербург</p>
                 <h2 class="promo__heading">Котейка</h2>
                 <p class="promo__cite">Уютная гостиница для котов и кошек</p>
-                <button class="promo__button button button_secondary">         
-                    Забронировать
-                </button>
+                <button class="promo__button button button_secondary">Забронировать</button>
             </div> 
         </article>
 
@@ -51,51 +29,51 @@
                     <li class="advantages__advantages-item advantages__advantages-item_gradus">
                         <h3>Комфортная температура</h3>
                         <p class="advantages__paragraph">
-                            Во всех номерах поддерживается<br>
-                            комфортная температура в пределах<br>
-                            23 - 25 градусов. В каждом номере<br>
-                            можно дополнительно отрегулировать<br> температуру. 
+                            | Во всех номерах поддерживается<br>
+                            | комфортная температура в пределах<br>
+                            | 23 - 25 градусов. В каждом номере<br>
+                            | можно дополнительно отрегулировать<br> температуру. 
                         </p>
                     </li>
                     <li class="advantages__advantages-item advantages__advantages-item_camera">
                         <h3>Видеонаблюдение</h3>
                         <p class="advantages__paragraph">
-                            Мы предоставляем доступ в нашу<br>
-                            систему. Вы сможете следить<br>
-                            за своим питомцем со своего<br>
-                            смартфона или компьютера.
+                            | Мы предоставляем доступ в нашу<br>
+                            | систему. Вы сможете следить<br>
+                            | за своим питомцем со своего<br>
+                            | смартфона или компьютера.
                         </p>
                     </li>
                     <li class="advantages__advantages-item advantages__advantages-item_taxi">
                         <h3>Услуги Зоотакси</h3>
                         <p class="advantages__paragraph">
-                            Мы приедем за вашим питомцем<br>
-                            в любой район Санкт-Петербурга.
+                            | Мы приедем за вашим питомцем<br>
+                            | в любой район Санкт-Петербурга.
                         </p>
                     </li>
                     <li class="advantages__advantages-item advantages__advantages-item_eat">
                         <h3>Сбалансированное питание</h3>
                         <p class="advantages__paragraph">
-                            Вы можете привезти свой корм<br>
-                            или доверить рацион своего<br>
-                            питомца нашим профессионалам.
+                            | Вы можете привезти свой корм<br>
+                            | или доверить рацион своего<br>
+                            | питомца нашим профессионалам.
                         </p>
                     </li>
                     <li class="advantages__advantages-item advantages__advantages-item_walk">
                         <h3>Ежедневные прогулки</h3>
                         <p class="advantages__paragraph">
-                            По вашему желанию мы выгуливаем<br>
-                            вашего питомца два раза в день<br>
-                            на специализированной закрытой<br>
-                            территории.
+                            | По вашему желанию мы выгуливаем<br>
+                            | вашего питомца два раза в день<br>
+                            | на специализированной закрытой<br>
+                            | территории.
                         </p>
                     </li>
                     <li class="advantages__advantages-item advantages__advantages-item_veterinarian">
                         <h3>Лучшие ветеринары</h3>
                         <p class="advantages__paragraph">
-                            В гостинице 24 часа дежурит<br>
-                            ветеринарный врач, который окажет<br> 
-                            любую помощь в случае необходимости.
+                            | В гостинице 24 часа дежурит<br>
+                            | ветеринарный врач, который окажет<br> 
+                            | любую помощь в случае необходимости.
                         </p>
                     </li>
                 </ul>
@@ -124,9 +102,7 @@
                                     <dd class="rooms__characteristic-value">200₽</dd>
                                 </div>
                             </dl>
-                            <button class="button button_primary rooms__button">         
-                                Забронировать
-                            </button>
+                            <button class="button button_primary rooms__button">Забронировать</button>
                         </nav>
                     </li>
                     <li class="rooms__slide rooms__slide_2">
@@ -147,9 +123,7 @@
                                     <dd class="rooms__characteristic-value">250₽</dd>
                                 </div>
                             </dl>
-                            <button class="button button_primary rooms__button">         
-                                Забронировать
-                            </button>
+                            <button class="button button_primary rooms__button">Забронировать</button>
                         </nav>
                     </li>
                     <li class="rooms__slide rooms__slide_3">
@@ -170,9 +144,7 @@
                                     <dd class="rooms__characteristic-value"> 350₽</dd>
                                 </div>
                             </dl>
-                            <button class="button button_primary rooms__button">         
-                                Забронировать
-                            </button>
+                            <button class="button button_primary rooms__button">Забронировать</button>
                         </nav>
                     </li>
                 </ul>
@@ -194,11 +166,11 @@
                 <li class="reviews__slide">
                     <blockquote class="reviews__quote">
                         <p class="reviews__paragraph">
-                        Первый раз пришлось оставить нашего котика
-                        в гостинице, очень переживали. Администратор
-                        Мария каждый день высылала нам фото нашего
-                        питомца, рассказывала, как он себя чувствует.
-                        И мы и котик остались очень довольны!
+                        | Первый раз пришлось оставить нашего котика
+                        | в гостинице, очень переживали. Администратор
+                        | Мария каждый день высылала нам фото нашего
+                        | питомца, рассказывала, как он себя чувствует.
+                        | И мы и котик остались очень довольны!
                         </p>
                         <footer class="reviews__basement">
                             <cite>Валерия Гришаева</cite>
@@ -209,11 +181,11 @@
                 <li class="reviews__slide">
                     <blockquote class="reviews__quote">
                         <p class="reviews__paragraph">
-                            Гостиницу для питомцев нам посоветовали
-                            друзья. Они всегда оставляют здесь своего кота,
-                            когда уезжают. В “Котейке” очень хорошо
-                            заботятся о питомцах, в гостинице очень чисто.
-                            Всем рекомендую! Будем обращаться еще.
+                            | Гостиницу для питомцев нам посоветовали
+                            | друзья. Они всегда оставляют здесь своего кота,
+                            | когда уезжают. В “Котейке” очень хорошо
+                            | заботятся о питомцах, в гостинице очень чисто.
+                            | Всем рекомендую! Будем обращаться еще.
                         </p>
                         <footer class="reviews__basement">
                             <cite>Екатерина Минаева</cite>
@@ -224,11 +196,11 @@
                 <li class="reviews__slide">
                     <blockquote class="reviews__quote">
                         <p class="reviews__paragraph">
-                            Мой кот — настоящая привереда, угодить ему
-                            сложно. У меня были особые требования к
-                            уходу за ним, и “Котейка” отлично справились.
-                            Я часто наблюдал по видео за питомцем со
-                            своего телефона, это очень удобно. 
+                            | Мой кот — настоящая привереда, угодить ему
+                            | сложно. У меня были особые требования к
+                            | уходу за ним, и “Котейка” отлично справились.
+                            | Я часто наблюдал по видео за питомцем со
+                            | своего телефона, это очень удобно. 
                         </p>
                         <footer class="reviews__basement">
                             <cite>Павел Нечаев</cite>
@@ -254,7 +226,7 @@
                     <div>
                         <dt class="contact__characteristic-name">Адрес</dt>      
                         <dd class="contact__characteristic-value">Санкт-Петербург, <br>
-                            ул Большая Конюшенная, д 19
+                            | ул Большая Конюшенная, д 19
                         </dd>
                     </div>
                     <div>
