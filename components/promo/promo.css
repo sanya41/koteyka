@@ -34,9 +34,6 @@
 
 .promo__button {
     margin-top: 40px;
-    background-color: #fff;
-    color: #000;
-    background-image: url("images-promo/paw.png");
 }
 
 .promo__button:hover {
