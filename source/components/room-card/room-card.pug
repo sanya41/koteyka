@@ -1,4 +1,4 @@
-mixin room-card({ title, image, size, square, cost })
+mixin room-card({ title, image, size, area, cost })
   article.room-card
       img(src=image alt="" ) 
       h2.room-card__heading #{title}
@@ -8,7 +8,7 @@ mixin room-card({ title, image, size, square, cost })
             dd.room-card__characteristic-value #{size}
           div
             dt.room-card__characteristic-name Площадь - 
-            dd.room-card__characteristic-value #{square}
+            dd.room-card__characteristic-value #{area}
           div.room-card__characteristic-icon
             dt.room-card__characteristic-name Оснащение номера
             dd.room-card__characteristic-value.room-card__characteristic-value_icon 
