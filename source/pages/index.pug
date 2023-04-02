@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+include ../components/page-header/page-header.pug
 <html lang="ru">
     <head>
         <meta charset="utf-8">
@@ -9,20 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
     </head>
     <body>
-
-    <header class="page-header">
-        <div class="container page-header__header-top">
-            <img src="images/logo.svg" alt="логотип">
-            <nav>
-                <ul class="page-header__main-nav">
-                    <li><a class="page-header__link" href="#">Почему мы?</a></li>
-                    <li><a class="page-header__link "href="./catalog.html">Номера</a></li>
-                    <li><a class="page-header__link "href="#">Отзывы</a></li>
-                    <li><a class="page-header__link "href="#">Как нас найти</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    +page-header()
     <main>
 
         <article class="promo">
