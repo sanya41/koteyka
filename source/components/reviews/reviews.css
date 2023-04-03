@@ -36,27 +36,6 @@
     width: 30%;
 }
 
-.reviews__quote {
-    margin: 0;
-}
-
-.reviews__paragraph {
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    margin-top: 0;
-}
-
-.reviews__basement {
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    color: #848484;
-}
 
 .reviews__buttons-dot {
     display: flex;
