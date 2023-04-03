@@ -1,0 +1,57 @@
+mixin rooms()
+  article.rooms
+    h2.rooms__heading Номера
+    div.container
+      ul.rooms__slider
+        li.rooms__slide
+          img.rooms__image(src="images/rooms-1.jpg" alt="Комната №1")
+          nav.rooms__box
+              h3.rooms__title Эконом плюс
+              dl.rooms__characteristics
+                  div
+                      dt.rooms__characteristic-name Площадь
+                      dd.rooms__characteristic-value - 0,90 м2
+                  div
+                      dt.rooms__characteristic-name Размеры (ШхГхВ)
+                      dd.rooms__characteristic-value — 90х100х180 см
+                  div
+                      dt.rooms__characteristic-name Цена за сутки: 
+                      dd.rooms__characteristic-value 200₽
+              button.button.button_primary.rooms__button Забронировать
+        li.rooms__slide.rooms__slide_2
+          img.rooms__image(src="images/rooms-2.png" alt="Комната №2")
+          nav.rooms__box
+              h3.rooms__title Комфорт
+              dl
+                  div
+                      dt.rooms__characteristic-name Площадь
+                      dd.rooms__characteristic-value - 1,13 м2
+                  div
+                      dt.rooms__characteristic-name Размеры (ШхГхВ)
+                      dd.rooms__characteristic-value - 100х125х180 см
+                  div
+                      dt.rooms__characteristic-name Цена за сутки:
+                      dd.rooms__characteristic-value 250₽
+              button.button.button_primary.rooms__button Забронировать
+        li.rooms__slide.rooms__slide_3
+          img.rooms-image(src="images/rooms-3.png" alt="Комната №3")
+          nav.rooms__box
+              h3.rooms__title Сьют
+              dl
+                  div
+                      dt.rooms__characteristic-name Площадь 
+                      dd.rooms__characteristic-value - 1,56 м2
+                  div
+                      dt.rooms__characteristic-name Размеры (ШхГхВ)
+                      dd.rooms__characteristic-value - 125х125х180 см
+                  div
+                      dt.rooms__characteristic-name Цена за сутки:
+                      dd.rooms__characteristic-value 350₽
+              button.button.button_primary.rooms__button Забронировать
+      div.rooms__buttons-dot
+          button.rooms__button-dot.rooms__button-dot_but-1
+          button.rooms__button-dot.rooms__button-dot_but-2
+          button.rooms__button-dot.rooms__button-dot_but-3
+      div.rooms__arrows
+          button.rooms__arrow.rooms__arrow_left
+          button.rooms__arrow.rooms__arrow_right
