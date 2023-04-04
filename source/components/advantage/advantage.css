@@ -1,0 +1,44 @@
+.advantage {
+    background-color: #fff;
+    list-style: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    margin: 15px;
+    box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+    border-radius: 8px;
+    padding-top: 130px;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-position: 30px 30px;
+    width: 320px;
+}
+
+.advantage__paragraph {
+    padding-right: 30px;
+}
+
+.advantage_gradus {
+    background-image: url("images/img-gradus.png");
+}
+
+.advantage_camera {
+    background-image: url("images/img-camera.png");
+}
+
+.advantage_taxi {
+    background-image: url("images/img-taxi.png");
+}
+
+.advantage_eat {
+    background-image: url("images/img-eat.png");
+}
+
+.advantage_walk {
+    background-image: url("images/img-walk.png");
+}
+
+.advantage_veterinarian {
+    background-image: url("images/img-veterinarian.png");
+}
