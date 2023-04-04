@@ -9,7 +9,7 @@ body {
 .container {
     max-width: 1170px;
     margin: 0 auto;
-    padding-left: 100px;
+    padding-left: 00px;
 }
 
 .button {
@@ -44,3 +44,5 @@ body {
 @import "../components/contact/contact.css";
 @import "../components/page-footer/page-footer.css";
 @import "../components/room-card/room-card.css";
+@import "../components/review/review.css";
+@import "../components/advantage/advantage.css";
