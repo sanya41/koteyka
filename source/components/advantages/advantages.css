@@ -30,6 +30,9 @@
     margin: 0;
 
 }
+ .advantages__paragraph {
+    padding-right: 60px;
+}
 
 .advantages__advantages-item {
     list-style: none;
@@ -44,7 +47,7 @@
     padding-left: 30px;
     background-repeat: no-repeat;
     background-position: 30px 30px;
-    min-width: 330px;
+    width: 330px;
 }
 
 .advantages__advantages-item_gradus {
