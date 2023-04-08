@@ -46,3 +46,5 @@ body {
 @import "../components/room-card/room-card.css";
 @import "../components/review/review.css";
 @import "../components/advantage/advantage.css";
+@import "../components/catalog/catalog.css";
+@import "../components/room-list/room-list.css";

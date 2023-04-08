@@ -1,0 +1,15 @@
+.room-list__listing {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.room-list__item-list {
+    margin-right: 3.605%;
+    margin-bottom: 3.605%;
+    width: 30.93%;
+}
+
+.room-list__item-list:nth-child(3n) {
+    margin-right: 0;
+}

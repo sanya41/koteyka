@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 include ../components/page-header/page-header.pug
-include ../components/room-card/room-card.pug
+include ../components/page-footer/page-footer.pug
+include ../components/catalog/catalog.pug
 <html lang="ru">
     <head>
         <meta charset="utf-8">
@@ -13,41 +14,11 @@ include ../components/room-card/room-card.pug
     <body>
         +page-header()
         <main>
-            +room-card({
-                title: 'Эконом', 
-                image: 'images/economy-cover.png', 
-                size: '90х70х180 см',
-                area: '0,63 м2',
-                cost: '100₽'
-            })
+
+        +catalog()
             
-            +room-card({
-                title: 'Эконом плюс', 
-                image: 'images/economy-plus-cover.png', 
-                size: '90х100х180 см',
-                area: '0,90 м2',
-                cost: '200₽'
-            })
         </main>
-        <footer class="page-footer">
-            <div class="page-footer__footer-top container">
-                <img src="images/logo.svg" alt="логотип">
-                <nav>
-                    <ul class="page-footer__main-nav">
-                        <li><a class="page-footer__link" href="#">Почему мы?</a></li>
-                        <li><a class="page-footer__link" href="#">Номера</a></li>
-                        <li><a class="page-footer__link" href="#">Отзывы</a></li>
-                        <li><a class="page-footer__link" href="#">Как нас найти</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="page-footer__copyright">
-                <div class="page-footer__container container">
-                    <p class="page-footer__paragraph">© 2019 Все права защищены</p>
-                    <p class="page-footer__paragraph">Политика конфиденциальности</p>
-                </div>
-            </div>
-        </footer>
+        +page-footer()
     </body>
 </html>
 
