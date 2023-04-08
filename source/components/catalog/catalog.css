@@ -1,0 +1,12 @@
+.catalog__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog__rooms-filter {
+    width: 17.95%;
+}
+
+.catalog__room-list {
+    width: 74.27%;
+}
