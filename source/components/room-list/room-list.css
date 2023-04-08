@@ -1,10 +1,10 @@
-.room-list__listing {
+.room-list {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
 }
 
-.room-list__item-list {
+.room-list__item {
     margin-right: 3.605%;
     margin-bottom: 3.605%;
     width: 30.93%;
