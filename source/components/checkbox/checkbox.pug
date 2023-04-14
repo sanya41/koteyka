@@ -1,4 +1,4 @@
 mixin checkbox({ label })    
-    label.checkbox 
+    label.checkbox&attributes(attributes) 
         input.checkbox__input(type="checkbox") 
         span.checkbox__label #{label}

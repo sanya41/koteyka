@@ -2,52 +2,19 @@ include ../checkbox/checkbox.pug
 
 mixin rooms-filter()
     form
-        h3 Площадь
-        ul.rooms-filter__list
-            li.rooms-filter__item
-                +checkbox({
-                    label: '0,63 м2'
-                })
-            li.rooms-filter__item    
-                +checkbox({
-                    label: '0,90 м2'
-                })
-            li.rooms-filter__item    
-                +checkbox({
-                    label: '1,13 м2'
-                })
-            li.rooms-filter__item    
-                +checkbox({
-                    label: '1,56 м2'
-                })
-            li.rooms-filter__item    
-                +checkbox({
-                    label: '2,56 м2'
-                })
-            li.rooms-filter__item    
-                +checkbox({
-                    label: '2,88 м2'
-                })
-        h3 Оснащение номера
-        ul.rooms-filter__list
-            li.rooms-filter__item
-                +checkbox({
-                    label: 'Пустой номер'
-                })
-            li.rooms-filter__item    
-                +checkbox({
-                    label: 'Лежак'
-                })
-            li.rooms-filter__item    
-                +checkbox({
-                    label: 'Когтеточка'
-                })
-            li.rooms-filter__item    
-                +checkbox({
-                    label: 'Игровой-комплекс'
-                })
-            li.rooms-filter__item    
-                +checkbox({
-                    label: 'Домик'
-                })
+        fieldset.rooms-filter__list
+            legend.rooms-filter__legend Площадь
+            +checkbox({ label: '0,63 м2' }).rooms-filter__checkbox
+            +checkbox({ label: '0,90 м2' }).rooms-filter__checkbox
+            +checkbox({ label: '1,13 м2' }).rooms-filter__checkbox
+            +checkbox({ label: '1,56 м2' }).rooms-filter__checkbox
+            +checkbox({ label: '2,56 м2' }).rooms-filter__checkbox
+            +checkbox({ label: '2,88 м2' }).rooms-filter__checkbox
+        fieldset.rooms-filter__list
+            legend.rooms-filter__legend Оснащение номера
+            +checkbox({ label: 'Пустой номер' }).rooms-filter__checkbox
+            +checkbox({ label: 'Лежак' }).rooms-filter__checkbox
+            +checkbox({ label: 'Когтеточка' }).rooms-filter__checkbox
+            +checkbox({ label: 'Игровой-комплекс' }).rooms-filter__checkbox
+            +checkbox({ label: 'Домик' }).rooms-filter__checkbox
         
