@@ -1,0 +1,12 @@
+.rooms-filter {
+    list-style: none;
+    padding: 0px;
+}
+
+.rooms-filter__item {
+    margin-bottom: 15px;
+}
+
+.rooms-filter__item:nth-child() {
+    margin-bottom: 0;
+}

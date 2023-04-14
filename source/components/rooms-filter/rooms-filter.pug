@@ -1,0 +1,12 @@
+include ../checkbox/checkbox.pug
+
+mixin rooms-filter() 
+    ul.rooms-filter
+        li.rooms-filter__item
+            +checkbox({
+                label: 'Пустой номер'
+            })
+        li.rooms-filter__item    
+            +checkbox({
+                label: 'Лежак'
+            })

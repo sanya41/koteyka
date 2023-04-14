@@ -1,4 +1,5 @@
-include ../room-list/room-list.pug
+include ../rooms-list/rooms-list.pug
+include ../rooms-filter/rooms-filter.pug
 
 mixin catalog() 
     div.catalog
@@ -6,6 +7,7 @@ mixin catalog()
             div.catalog__title catalog-title 
             div.catalog__rooms-select rooms-select 
         div.catalog__container.container 
-            div.catalog__rooms-filter rooms-filter
+            div.catalog__rooms-filter 
+                +rooms-filter()
             div.catalog__room-list 
-                +room-list() 
+                +rooms-list() 

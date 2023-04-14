@@ -1,9 +1,9 @@
 include ../room-card/room-card.pug
 
 
-mixin room-list()
-    ul.room-list
-        li.room-list__item
+mixin rooms-list()
+    ul.rooms-list
+        li.rooms-list__item
             +room-card({
                 title: 'Эконом', 
                 image: 'images/economy-cover.png', 
@@ -11,7 +11,7 @@ mixin room-list()
                 area: '0,63 м2',
                 cost: '100₽'
             })
-        li.room-list__item
+        li.rooms-list__item
             +room-card({
                 title: 'Эконом плюс', 
                 image: 'images/economy-plus-cover.png', 
@@ -19,7 +19,7 @@ mixin room-list()
                 area: '1,13 м2',
                 cost: '250₽'
             })
-        li.room-list__item
+        li.rooms-list__item
             +room-card({
                 title: 'Комфорт', 
                 image: 'images/comfort-cover.png', 
@@ -27,7 +27,7 @@ mixin room-list()
                 area: '0,90 м2',
                 cost: '200₽'
             })
-        li.room-list__item
+        li.rooms-list__item
             +room-card({
                 title: 'Сьют', 
                 image: 'images/suite-cover.png', 
@@ -35,7 +35,7 @@ mixin room-list()
                 area: '1,56 м2',
                 cost: '350₽'
             })
-        li.room-list__item
+        li.rooms-list__item
             +room-card({
                 title: 'Люкс', 
                 image: 'images/luxury-cover.png', 
@@ -43,7 +43,7 @@ mixin room-list()
                 area: '2,56 м2',
                 cost: '500₽'
             })
-        li.room-list__item
+        li.rooms-list__item
             +room-card({
                 title: 'Супер-Люкс', 
                 image: 'images/super-luxury-cover.png', 

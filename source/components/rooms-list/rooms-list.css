@@ -1,15 +1,15 @@
-.room-list {
+.rooms-list {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
 }
 
-.room-list__item {
+.rooms-list__item {
     margin-right: 3.605%;
     margin-bottom: 3.605%;
     width: 30.93%;
 }
 
-.room-list__item:nth-child(3n) {
+.rooms-list__item:nth-child(3n) {
     margin-right: 0;
 }
