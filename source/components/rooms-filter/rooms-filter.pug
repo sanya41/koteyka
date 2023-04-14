@@ -1,4 +1,12 @@
-mixin rooms-filter({ equipment })    
-    label.checkbox 
-        input.checkbox__input(type="checkbox") 
-        span.checkbox__label #{equipment}
+include ../checkbox/checkbox.pug
+
+mixin rooms-filter() 
+    ul.rooms-filter
+        li.rooms-filter__item
+            +checkbox({
+                label: 'Пустой номер'
+            })
+        li.rooms-filter__item    
+            +checkbox({
+                label: 'Лежак'
+            })

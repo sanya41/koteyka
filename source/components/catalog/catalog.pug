@@ -1,5 +1,5 @@
 include ../rooms-list/rooms-list.pug
-include ../rooms-filters/rooms-filters.pug
+include ../rooms-filter/rooms-filter.pug
 
 mixin catalog() 
     div.catalog
@@ -8,6 +8,6 @@ mixin catalog()
             div.catalog__rooms-select rooms-select 
         div.catalog__container.container 
             div.catalog__rooms-filter 
-                +rooms-filters()
+                +rooms-filter()
             div.catalog__room-list 
-                +room-list() 
+                +rooms-list() 

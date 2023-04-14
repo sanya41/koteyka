@@ -48,5 +48,5 @@ body {
 @import "../components/advantage/advantage.css";
 @import "../components/catalog/catalog.css";
 @import "../components/rooms-list/rooms-list.css";
+@import "../components/checkbox/checkbox.css";
 @import "../components/rooms-filter/rooms-filter.css";
-@import "../components/rooms-filters/rooms-filters.css";
