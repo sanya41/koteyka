@@ -1,12 +1,53 @@
 include ../checkbox/checkbox.pug
 
-mixin rooms-filter() 
-    ul.rooms-filter
-        li.rooms-filter__item
-            +checkbox({
-                label: 'Пустой номер'
-            })
-        li.rooms-filter__item    
-            +checkbox({
-                label: 'Лежак'
-            })
+mixin rooms-filter()
+    form
+        h3 Площадь
+        ul.rooms-filter__list
+            li.rooms-filter__item
+                +checkbox({
+                    label: '0,63 м2'
+                })
+            li.rooms-filter__item    
+                +checkbox({
+                    label: '0,90 м2'
+                })
+            li.rooms-filter__item    
+                +checkbox({
+                    label: '1,13 м2'
+                })
+            li.rooms-filter__item    
+                +checkbox({
+                    label: '1,56 м2'
+                })
+            li.rooms-filter__item    
+                +checkbox({
+                    label: '2,56 м2'
+                })
+            li.rooms-filter__item    
+                +checkbox({
+                    label: '2,88 м2'
+                })
+        h3 Оснащение номера
+        ul.rooms-filter__list
+            li.rooms-filter__item
+                +checkbox({
+                    label: 'Пустой номер'
+                })
+            li.rooms-filter__item    
+                +checkbox({
+                    label: 'Лежак'
+                })
+            li.rooms-filter__item    
+                +checkbox({
+                    label: 'Когтеточка'
+                })
+            li.rooms-filter__item    
+                +checkbox({
+                    label: 'Игровой-комплекс'
+                })
+            li.rooms-filter__item    
+                +checkbox({
+                    label: 'Домик'
+                })
+        
