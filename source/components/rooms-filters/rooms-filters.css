@@ -1,0 +1,12 @@
+.filters-list {
+    list-style: none;
+    padding: 0px;
+}
+
+.filter-list__item {
+    margin-bottom: 15px;
+}
+
+.filter-list__item:nth-child() {
+    margin-bottom: 0;
+}

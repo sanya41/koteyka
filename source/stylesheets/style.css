@@ -47,4 +47,6 @@ body {
 @import "../components/review/review.css";
 @import "../components/advantage/advantage.css";
 @import "../components/catalog/catalog.css";
-@import "../components/room-list/room-list.css";
+@import "../components/rooms-list/rooms-list.css";
+@import "../components/rooms-filter/rooms-filter.css";
+@import "../components/rooms-filters/rooms-filters.css";
