@@ -51,3 +51,4 @@ body {
 @import "../components/checkbox/checkbox.css";
 @import "../components/rooms-filter/rooms-filter.css";
 @import "../components/price-filter/price-filter.css";
+@import "../components/rooms-select/rooms-select.css";

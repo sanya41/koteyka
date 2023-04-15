@@ -1,13 +1,16 @@
 include ../rooms-list/rooms-list.pug
 include ../rooms-filter/rooms-filter.pug
+include ../rooms-select/rooms-select.pug
 
 mixin catalog() 
     div.catalog
-        div.catalog__container.container
-            div.catalog__title catalog-title 
-            div.catalog__rooms-select rooms-select 
+        div.catalog__container.container.catalog__header
+            div.catalog__title 
+                h2 Наши номера
+            div.catalog__rooms-select 
+                +rooms-select()
         div.catalog__container.container 
             div.catalog__rooms-filter 
                 +rooms-filter()
-            div.catalog__room-list 
+            div.catalog__rooms-list 
                 +rooms-list() 
