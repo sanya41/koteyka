@@ -1,7 +1,9 @@
 include ../checkbox/checkbox.pug
+include ../price-filter/price-filter.pug
 
 mixin rooms-filter()
     form
+        +price-filter()
         fieldset.rooms-filter__list
             legend.rooms-filter__legend Площадь
             +checkbox({ label: '0,63 м2' }).rooms-filter__checkbox

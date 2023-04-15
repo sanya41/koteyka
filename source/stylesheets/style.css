@@ -50,3 +50,4 @@ body {
 @import "../components/rooms-list/rooms-list.css";
 @import "../components/checkbox/checkbox.css";
 @import "../components/rooms-filter/rooms-filter.css";
+@import "../components/price-filter/price-filter.css";
