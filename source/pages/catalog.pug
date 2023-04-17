@@ -2,6 +2,8 @@
 include ../components/page-header/page-header.pug
 include ../components/page-footer/page-footer.pug
 include ../components/catalog/catalog.pug
+include ../components/rooms-promo/rooms-promo.pug
+include ../components/contact/contact.pug
 <html lang="ru">
     <head>
         <meta charset="utf-8">
@@ -15,8 +17,11 @@ include ../components/catalog/catalog.pug
         +page-header()
         <main>
 
-        +catalog()
+            +catalog()
             
+            +rooms-promo()
+
+            +contact()
         </main>
         +page-footer()
     </body>
