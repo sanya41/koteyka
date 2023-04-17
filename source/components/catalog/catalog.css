@@ -3,12 +3,6 @@
     justify-content: space-between;
 }
 
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
-    padding-left: 0px;
-}
-
 .catalog__header {
     align-items: center;
     margin-bottom: 50px;
