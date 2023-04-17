@@ -1,0 +1,33 @@
+.rooms-promo {
+    background: 
+        url("iamges/paw-big.png") no-repeat top left,
+        url("iamges/banner.png") no-repeat center; 
+    padding-top: 78px;
+    padding-bottom: 78px;
+    padding-left: 20%;
+}
+
+.rooms-promo__title {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.rooms-promo__title-span {
+    display: block;
+    font-size: 56px;
+}
+
+.rooms-promo__paragraph {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    width: 254px;
+}

@@ -1,7 +1,6 @@
 .catalog__container {
     display: flex;
     justify-content: space-between;
-    
 }
 
 .catalog__header {
