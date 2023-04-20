@@ -8,7 +8,6 @@
 
 .product-card__container {
     display: flex;
-    justify-content: space-between;
 }
 
 .product-card__product-images  {
@@ -31,7 +30,7 @@
 }
 
 .product-card__product-description {
-    margin-right: 15%;
+    margin-left: 10%;
 }
 
 .product-card__title {
@@ -74,12 +73,8 @@
     margin-bottom: 32px;
 }
 
-.product-card__characteristic-item {
+.product-card__characteristic-item:not(:last-child) {
     margin-bottom: 15px;
-}
-
-.product-card__characteristic-item:last-child {
-    margin-bottom: 0px;
 }
 
 .product-card__characteristic-image {
