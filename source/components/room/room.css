@@ -1,0 +1,82 @@
+.product-card {
+    background-image: url("images/big-paw.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-top: 70px;
+    margin-bottom: 140px;
+}
+
+.product-card__container {
+    display: flex;
+}
+
+.product-card__product-images  {
+    position: relative;
+    width: 600px;
+    list-style: none;
+}
+
+.product-card__image {
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.product-card__image_big {
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    width: 500px;
+}
+
+.product-card__product-description {
+    margin-left: 10%;
+}
+
+.product-card__title {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    margin: 0;
+}
+
+.product-card__characteristics {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.product-card__characteristic-name {
+    display: inline-block;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+.product-card__characteristic-value {
+    display: inline-block;
+    margin: 0;
+}
+ 
+.product-card__characteristic-value_equipment  {
+    display: block;
+    margin-left: 0;
+}
+
+.product-card__characteristic-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.product-card__characteristic-item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.product-card__characteristic-image {
+    margin-right: 8px;
+}

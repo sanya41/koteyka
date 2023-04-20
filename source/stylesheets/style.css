@@ -58,3 +58,5 @@ body {
 @import "../components/price-filter/price-filter.css";
 @import "../components/rooms-select/rooms-select.css";
 @import "../components/rooms-promo/rooms-promo.css";
+@import "../components/room/room.css";
+

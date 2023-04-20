@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 include ../components/page-header/page-header.pug
 include ../components/page-footer/page-footer.pug
-include ../components/rooms/rooms.pug
+include ../components/room/room.pug
 include ../components/contact/contact.pug
 include ../components/rooms/rooms.pug
 <html lang="ru">
@@ -16,6 +16,7 @@ include ../components/rooms/rooms.pug
     <body>
         +page-header()
         <main>
+            +room()
             +rooms({ heading: 'Другие номера' })
             +contact()
         </main>
