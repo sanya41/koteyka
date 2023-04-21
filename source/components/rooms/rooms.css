@@ -29,10 +29,6 @@
 
 .rooms__heading {
     text-align: center;   
-    font-family: 'Rubik', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
     line-height: 43px;
 }
 
@@ -47,7 +43,6 @@
 }
 
 .rooms__characteristics {
-    font-family: 'Lato', sans-serif;
     margin: 0;
 }
 
