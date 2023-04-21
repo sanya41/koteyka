@@ -11,10 +11,7 @@
 }
 
 .rooms-filter__legend {
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
     font-weight: 600;
-    font-size: 16px;
     color: #1A212F;
     margin-bottom: 20px;
     padding: 0;
@@ -24,8 +21,6 @@
     border-radius: 25px;
     border: 0;
     background-color: rgba(250, 198, 99, 1);
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 14px;
     width: 100%;

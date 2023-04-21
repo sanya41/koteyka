@@ -8,13 +8,6 @@
     margin-bottom: 50px;
 }
 
-.catalog__title {
-    font-family: 'Rubik', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-}
-
 .catalog__rooms-filter {
     width: 17.95%;
 }
@@ -22,4 +15,3 @@
 .catalog__rooms-list {
     width: 74.27%;
 }
-

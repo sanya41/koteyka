@@ -6,16 +6,11 @@
     padding-bottom: 98px;
 }
 
-
 .advantages__heading {
     text-align: center;
-    font-family: 'Rubik', sans-serif;
-    font-style: normal;
     font-weight: 700;
-    font-size: 36px;
     line-height: 43px;
     margin-bottom: 70px;
-    
 }
 
 .advantages__list {
@@ -25,7 +20,3 @@
     margin: 0;
     
 }
-
-
-
-
