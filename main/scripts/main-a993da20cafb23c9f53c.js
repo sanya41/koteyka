@@ -1,0 +1,2 @@
+/*! For license information please see main-a993da20cafb23c9f53c.js.LICENSE.txt */
+(()=>{var __webpack_modules__={"./javascript/main.js":()=>{eval("// Когда-то тут будет JavaScript\n\n//# sourceURL=webpack:///./javascript/main.js?")}},__webpack_exports__={};__webpack_modules__["./javascript/main.js"]()})();
