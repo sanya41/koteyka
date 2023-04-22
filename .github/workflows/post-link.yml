@@ -1,0 +1,17 @@
+name: Post Link
+
+on:
+  pull_request:
+
+jobs:
+  post_link:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: echo "link=https://${{ github.event.repository.owner.login }}.github.io/${{ github.event.repository.name }}/${{ github.event.pull_request.head.ref }}/index.html" >> $GITHUB_ENV
+      - uses: thollander/actions-comment-pull-request@v1.4.1
+        with:
+          message: |
+            :rocket: Сайт с этой ветки будет доступен по [этой](${{ env.link }}) ссылке
+          comment_includes: ':rocket:'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
