@@ -1,0 +1,21 @@
+name: Deploy
+
+on:
+  push:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: npm
+      - run: npm ci
+        shell: bash
+      - run: git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+        env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: npx weboops --mode build -o ./dist/ --publicPath /${{ github.event.repository.name }}/$GITHUB_REF_NAME/
+      - run: npx gh-pages --branch production --dist dist --dest $GITHUB_REF_NAME --remove $GITHUB_REF_NAME --user "github-actions-bot <support+actions@github.com>"
