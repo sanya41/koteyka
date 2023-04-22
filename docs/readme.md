@@ -1,6 +1,7 @@
 # Koteyka
 
-[Информация про гит](../CONTRIBUTOR.md)
+* [Информация про гит](../CONTRIBUTOR.md)
+* [Макет Figma](https://www.figma.com/file/Ncz69cZYKUNdgTlPJCtYJd/hotelcats-(Copy)-(Copy)?node-id=0%3A1&t=jjnFXDLE6h5hbTd8-0)
 
 ## PUG для самых маленьких
 
