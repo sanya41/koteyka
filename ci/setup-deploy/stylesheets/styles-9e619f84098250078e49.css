@@ -1,0 +1,822 @@
+*,
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: #1A212F;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    background-color: #FFFEFD;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.heading {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.button {
+    padding: 15px 53px 15px 20px;
+    border-radius: 25px;
+    border: 0;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-position: 95%; 
+}
+
+.button_secondary {
+    background-image: url("/images/paw.png");
+    background-color: #fff;
+    color: #000;
+}
+
+.button_primary {
+    background-image: url("/images/paw-2.svg");
+    background-color: #FF7236;
+    color: #FFFEFD;
+}
+.page-header__header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.page-header .page-header__link {
+    display: block;
+    text-decoration: none;
+    color: #1A212F;
+    font-weight: 600;
+    padding: 32px 15px;
+    transition: 0.2s background-color ease;
+}
+
+.page-header a:hover {
+    background-color: lightgray;
+}
+
+.page-header__main-nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.promo {
+    background-image: url(/koteyka/images/components/promo/images-promo//promo-background-2227b15bfff7b39ed7cadf3d9850ca78.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.promo__container {
+    padding-left: 140px;
+}
+
+.promo__heading {
+    font-size: 62px;
+    margin: 0;
+}
+
+.promo__paragraph {
+    margin: 0;
+}
+
+.promo__cite {
+    line-height: 25px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.promo__button {
+    margin-top: 40px;
+}
+
+.promo__button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+    box-shadow: 0 2px 0 0 rgba(23, 3, 3, 0.5);
+}
+.advantages  {
+    background-image: url(/koteyka/images/components/advantages/images-advantages//paw-big-b7f37ac4519202b4b166a51c3d1243ad.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 0; 
+    padding-top: 98px;
+    padding-bottom: 98px;
+}
+
+.advantages__heading {
+    text-align: center;
+    font-weight: 700;
+    line-height: 43px;
+    margin-bottom: 70px;
+}
+
+.advantages__list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    
+}
+.rooms  {
+    background-image: url(/koteyka/images/components/rooms/images-rooms//fish-7f120d850cb7a859a7215c447b66ceae.svg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.rooms__slide {
+    display: flex;
+    flex-direction: row;
+}
+
+.rooms__slide_2, 
+.rooms__slide_3 {
+    display: none;
+} 
+
+.rooms__box {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: -70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    width: 500px;
+}
+
+.rooms__heading {
+    text-align: center;   
+    line-height: 43px;
+}
+
+.rooms__title {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.rooms__characteristics {
+    margin: 0;
+}
+
+.rooms__characteristic-name {
+    display: inline-block;
+    background-image: url(/koteyka/images/components/rooms/images-rooms//Ellipse-dbb603f2c4446ea84ab50371550974e3.png);
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.rooms__characteristic-value {
+   display: inline-block;
+   margin-left: 0;
+}
+
+.rooms__characteristic-name:last-child {
+    padding-bottom: 0;
+}
+
+.rooms__button {
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.rooms .button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+    box-shadow: 0 2px 0 0 rgba(23, 3, 3, 0.5);
+}
+
+.rooms__buttons-dot {
+    display: flex;
+    margin-right: 168px;
+    margin-top: 48px;
+    margin-bottom: 112px;
+    justify-content: center;
+}
+
+.rooms__arrows {
+    position: absolute;
+    right: 168px;
+    top: 522px;
+}
+
+.rooms__arrow {
+    background-image: url(/koteyka/images/components/rooms/images-rooms//Arrow-left-f0090b101807df4f72cf0e706801a7f4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff;
+    border: 0;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0px 2px 12px rgba(173, 152, 143, 0.25);
+    margin: 5px;
+}
+
+.rooms__arrow_right {
+    background-image: url(/koteyka/images/components/rooms/images-rooms//Arrow-right-3685b4a4442d878d531a1e5792dfd5b3.png);
+}
+
+.rooms__button-dot {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    border: 0;
+    margin: 6px;
+    justify-content: center;
+}
+
+.rooms__buttons-dot .rooms__button-dot_but-1 {
+    background-color: #FAC663;
+}
+.reviews {
+    background-image: url(/koteyka/images/components/reviews/images-rewiews//paw-big-two-fb7acf39163e6d37f20debf472e4f8c4.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    padding-top: 98px; 
+    position: relative;
+}
+
+.reviews__heading {
+    text-align: center;
+    line-height: 43px;
+    margin-bottom: 70px;
+}
+
+.reviews__slider {
+    display: flex;
+}
+
+.reviews__slide {
+    list-style: none;
+    background-image: url(/koteyka/images/components/reviews/images-rewiews//quotation-mark-cfa37e05106380344672afbe366a690c.svg);
+    background-repeat: no-repeat;
+    background-position: 35px 35px;
+    box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+    border-radius: 8px;
+    margin-bottom: 40px;
+    margin-right: 15px;
+    padding-right: 38px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 70px;
+    width: 30%;
+}
+
+
+.reviews__buttons-dot {
+    display: flex;
+    margin-top: 48px;
+    margin-bottom: 112px;
+    justify-content: center;
+}
+
+.reviews__arrows {
+    position: absolute;
+    right: 168px;
+    bottom: 1px;
+}
+
+.reviews__arrow {
+    background-image: url(/koteyka/images/components/reviews/images-rewiews//Arrow-left-f0090b101807df4f72cf0e706801a7f4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff;
+    border: 0;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0px 2px 12px rgba(173, 152, 143, 0.25);
+    margin: 5px;
+}
+
+.reviews__arrow_right {
+    background-image: url(/koteyka/images/components/reviews/images-rewiews//Arrow-right-3685b4a4442d878d531a1e5792dfd5b3.png);
+}
+
+.reviews__button-dot {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    border: 0;
+    margin: 6px;
+}
+
+.reviews__buttons-dot:nth-child(1) {
+    background-color: #FAC663;
+} 
+.contact {
+    display: flex;
+    background-color: #FAC663;
+    position: relative;
+    margin-top: 140px;
+}
+
+.contact__container {
+    padding: 0;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.contact__heading {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.contact__characteristic-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.contact__characteristic-value {
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 0;
+}
+
+.contact__links {
+    margin-left: 0;
+}
+
+.contact__link {
+    margin-right: 20px;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+}
+
+.contact__link:last-child {
+    margin-right: 0;
+}
+
+.contact__link_facebook {
+    background-image: url(/koteyka/images/components/contact/images-contact//facebook-d03af432f01751af5e593225f405e764.svg);
+}
+
+.contact__link_instagram {
+    background-image: url(/koteyka/images/components/contact/images-contact//instagram-632a297014c16ca6b8583db40a4460b2.svg);
+}
+
+.contact__link_vkontacte {
+    background-image: url(/koteyka/images/components/contact/images-contact//vkontacte-970356f06449cf3520961d1ddd2ef8ad.svg);
+}
+.page-footer__footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.page-footer__link {
+    display: block;
+    text-decoration: none;
+    color: #1A212F;
+    font-weight: 600;
+    padding: 32px 15px;
+    transition: 0.2s background-color ease;
+}
+
+.page-footer__link:hover {
+    background-color: lightgray;
+}
+
+.page-footer__main-nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.page-footer .container {
+    max-width: 1000px;
+    padding: 0;
+     
+}
+
+
+.page-footer__copyright  {
+    border-top: 3px solid #EFEFEF;
+    color: #8F8F8F;
+    font-size: 12px;
+}
+
+.page-footer__container {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.page-footer__paragraph {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.room-card {
+    border: 1px solid #E1E1E1;
+    box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+    border-radius: 6px;
+    width: 100%;
+}
+
+.room-card__image {
+    max-width: 100%;
+}
+
+.room-card__heading {
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.room-card__characteristics {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.room-card__characteristic-name {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.room-card__characteristic-value {
+    display: inline-block;
+    margin-left: 0;
+}
+
+.room-card__characteristic-icon {
+    display: flex;
+    justify-self: center;
+}
+
+.room-card__characteristic-value_icon {
+    margin-left: 10px;
+}
+
+.room-card__characteristic-value_cost {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.room-card__bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 25px; 
+}
+
+
+
+
+.review__paragraph {
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.review__basement {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #848484;
+}
+
+.review__quote {
+    margin: 0;
+}
+.advantage {
+    background-color: #fff;
+    list-style: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    margin: 15px;
+    box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+    border-radius: 8px;
+    padding-top: 130px;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-position: 30px 30px;
+    width: 320px;
+}
+
+.advantage__paragraph {
+    padding-right: 30px;
+}
+
+.advantage_gradus {
+    background-image: url(/koteyka/images/components/advantage/images//img-gradus-6ac0c92402b575e81b82958116222787.png);
+}
+
+.advantage_camera {
+    background-image: url(/koteyka/images/components/advantage/images//img-camera-472405be5207ba95277a501ca7005517.png);
+}
+
+.advantage_taxi {
+    background-image: url(/koteyka/images/components/advantage/images//img-taxi-da7546dcdae2609cd680e0d865313c58.png);
+}
+
+.advantage_eat {
+    background-image: url(/koteyka/images/components/advantage/images//img-eat-26bead0cd4bf587ab99a174e1b820191.png);
+}
+
+.advantage_walk {
+    background-image: url(/koteyka/images/components/advantage/images//img-walk-a3f85aecb6a9a8311dfd4e4e531b7afd.png);
+}
+
+.advantage_veterinarian {
+    background-image: url(/koteyka/images/components/advantage/images//img-veterinarian-6a67da67b8a8615c834e29f03222ea9b.png);
+}
+.catalog__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog__header {
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.catalog__rooms-filter {
+    width: 17.95%;
+}
+
+.catalog__rooms-list {
+    width: 74.27%;
+}
+.rooms-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.rooms-list__item {
+    margin-right: 3.605%;
+    margin-bottom: 3.605%;
+    width: 30.93%;
+}
+
+.rooms-list__item:nth-child(3n) {
+    margin-right: 0;
+}
+.checkbox__input {
+    display: none;
+}
+
+.checkbox__label {
+    display: inline-block;
+    vertical-align: middle;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.checkbox__label::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #E1E1E1;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 60%;
+}
+
+.checkbox__input:checked + .checkbox__label::before {
+    background-image: url(/koteyka/images/components/checkbox/images//check-mark-38eecf32ca269dcaeac27eaee2b6881a.png);
+}
+
+.rooms-filter__list {
+    padding: 0px;
+    border: 0;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.rooms-filter__checkbox {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.rooms-filter__legend {
+    font-weight: 600;
+    color: #1A212F;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.rooms-filter__button {
+    border-radius: 25px;
+    border: 0;
+    background-color: rgba(250, 198, 99, 1);
+    font-weight: 600;
+    font-size: 14px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 15px
+}
+
+
+.rooms-filter__aplly {
+    border: 2px solid rgba(250, 198, 99, 1);
+    background-color: #fff;
+}
+.price-filter__list {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    width: 250px;
+}
+
+.price-filter__legend {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.price-filter__cost {
+    border: 1px solid #E1E1E1;
+    margin-bottom: 35px;
+    margin-right: 10px;
+    padding-left: 10%;
+    width: 70px;
+    height: 24px;
+}
+
+.rooms-select__sort {
+    border: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 174px;
+    min-height: 35px;
+    position: relative;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+
+.rooms-select__sort[open] {
+    z-index: 2;
+    border-radius: 2px;
+}
+
+.rooms-select__list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.rooms-select__option {
+    list-style: none;
+    line-height: 35px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.rooms-promo {
+    background: 
+        url(/koteyka/images/components/rooms-promo/iamges//paw-big-e8f81e7d6047b75a15d683aef430416e.png) no-repeat top left,
+        url(/koteyka/images/components/rooms-promo/iamges//banner-105389d4fb16d0aa2898f52681d27fcd.png) no-repeat center; 
+    padding-top: 78px;
+    padding-bottom: 78px;
+    padding-left: 20%;
+}
+
+.rooms-promo__heading {
+    line-height: 43px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.rooms-promo__title-span {
+    display: block;
+    font-size: 56px;
+}
+
+.rooms-promo__paragraph {
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 25px;
+    width: 254px;
+}
+.product-card {
+    background-image: url(/koteyka/images/components/room/images//big-paw-8ef9e6fc7a3e2300d2ab9c24de405324.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-top: 70px;
+    margin-bottom: 140px;
+}
+
+.product-card__container {
+    display: flex;
+}
+
+.product-card__product-images  {
+    position: relative;
+    width: 600px;
+    list-style: none;
+}
+
+.product-card__image {
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.product-card__image_big {
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    width: 500px;
+}
+
+.product-card__product-description {
+    margin-left: 10%;
+}
+
+.product-card__heading {
+    margin: 0;
+}
+
+.product-card__characteristics {
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.product-card__characteristic-name {
+    display: inline-block;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+.product-card__characteristic-value {
+    display: inline-block;
+    margin: 0;
+}
+ 
+.product-card__characteristic-value_equipment  {
+    display: block;
+    margin-left: 0;
+}
+
+.product-card__characteristic-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.product-card__characteristic-item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.product-card__characteristic-image {
+    margin-right: 8px;
+}
+

@@ -1,0 +1,305 @@
+<!DOCTYPE html><html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>koteyka</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+<link href="/koteyka/stylesheets/styles-9e619f84098250078e49.css" rel="stylesheet"></head>
+<body><header class="page-header">
+<div class="container page-header__header-top">
+<a href="/koteyka/">
+<img src="images/logo.svg" alt="логотип">
+</a>
+<nav>
+<ul class="page-header__main-nav">
+<li><a class="page-header__link" href="#">Почему мы?</a></li>
+<li><a class="page-header__link "href="./catalog.html">Номера</a></li>
+<li><a class="page-header__link "href="./room.html">Отзывы</a></li>
+<li><a class="page-header__link "href="#">Как нас найти</a></li>
+</ul>
+</nav>
+</div>
+</header><main>
+<div class="catalog">
+  <div class="catalog__container container catalog__header">
+    <h2 class="catalog__heading heading">
+        Наши номера</h2>
+    <div class="catalog__rooms-select"> 
+      <details class="rooms-select__sort">
+        <summary class="rooms-select__option">↑ По площади</summary>
+        <ul class="rooms-select__list">
+          <li class="rooms-select__option">↑ По площади</li>
+          <li class="rooms-select__option">↓ По площади</li>
+          <li class="rooms-select__option">↑ По цене</li>
+          <li class="rooms-select__option">↓ По цене</li>
+        </ul>
+      </details>
+    </div>
+  </div>
+  <div class="catalog__container container"> 
+    <div class="catalog__rooms-filter"> 
+      <form>
+        <fieldset class="price-filter__list">
+          <legend class="price-filter__legend">Цена за сутки,₽</legend>
+          <input class="price-filter__cost" type="number" min="100" max="600">
+          <input class="price-filter__cost" type="number" min="100" max="600">
+        </fieldset>
+        <fieldset class="rooms-filter__list">
+          <legend class="rooms-filter__legend">Площадь</legend>
+          <label class="checkbox rooms-filter__checkbox"> 
+            <input class="checkbox__input" type="checkbox"><span class="checkbox__label">0,63 м2</span>
+          </label>
+          <label class="checkbox rooms-filter__checkbox"> 
+            <input class="checkbox__input" type="checkbox"><span class="checkbox__label">0,90 м2</span>
+          </label>
+          <label class="checkbox rooms-filter__checkbox"> 
+            <input class="checkbox__input" type="checkbox"><span class="checkbox__label">1,13 м2</span>
+          </label>
+          <label class="checkbox rooms-filter__checkbox"> 
+            <input class="checkbox__input" type="checkbox"><span class="checkbox__label">1,56 м2</span>
+          </label>
+          <label class="checkbox rooms-filter__checkbox"> 
+            <input class="checkbox__input" type="checkbox"><span class="checkbox__label">2,56 м2</span>
+          </label>
+          <label class="checkbox rooms-filter__checkbox"> 
+            <input class="checkbox__input" type="checkbox"><span class="checkbox__label">2,88 м2</span>
+          </label>
+        </fieldset>
+        <fieldset class="rooms-filter__list">
+          <legend class="rooms-filter__legend">Оснащение номера</legend>
+          <label class="checkbox rooms-filter__checkbox"> 
+            <input class="checkbox__input" type="checkbox"><span class="checkbox__label">Пустой номер</span>
+          </label>
+          <label class="checkbox rooms-filter__checkbox"> 
+            <input class="checkbox__input" type="checkbox"><span class="checkbox__label">Лежак</span>
+          </label>
+          <label class="checkbox rooms-filter__checkbox"> 
+            <input class="checkbox__input" type="checkbox"><span class="checkbox__label">Когтеточка</span>
+          </label>
+          <label class="checkbox rooms-filter__checkbox"> 
+            <input class="checkbox__input" type="checkbox"><span class="checkbox__label">Игровой-комплекс</span>
+          </label>
+          <label class="checkbox rooms-filter__checkbox"> 
+            <input class="checkbox__input" type="checkbox"><span class="checkbox__label">Домик</span>
+          </label>
+        </fieldset>
+        <button class="rooms-filter__button" type="button">Применить</button>
+        <button class="rooms-filter__button rooms-filter__aplly" type="reset">Сбросить фильтр</button>
+      </form>
+    </div>
+    <div class="catalog__rooms-list"> 
+      <ul class="rooms-list">
+        <li class="rooms-list__item">
+          <article class="room-card"><img class="room-card__image" src="images/economy-cover.png" alt="">
+            <h2 class="room-card__heading heading">Эконом</h2>
+            <dl class="room-card__characteristics">
+              <div>
+                <dt class="room-card__characteristic-name">Размеры (ШхГхВ) - </dt>
+                <dd class="room-card__characteristic-value">90х70х180 см</dd>
+              </div>
+              <div>
+                <dt class="room-card__characteristic-name">Площадь - </dt>
+                <dd class="room-card__characteristic-value">0,63 м2</dd>
+              </div>
+              <div class="room-card__characteristic-icon">
+                <dt class="room-card__characteristic-name">Оснащение номера</dt>
+                <dd class="room-card__characteristic-value room-card__characteristic-value_icon"> <img src="images/slashed-zero.png"></dd>
+              </div>
+              <div>
+                <dt class="room-card__characteristic-name">Цена за сутки: </dt>
+                <dd class="room-card__characteristic-value room-card__characteristic-value_cost">100₽</dd>
+              </div>
+            </dl>
+            <div class="room-card__bottom">
+              <button class="button button_primary room-card__button">Забронировать</button>
+            </div>
+          </article>
+        </li>
+        <li class="rooms-list__item">
+          <article class="room-card"><img class="room-card__image" src="images/economy-plus-cover.png" alt="">
+            <h2 class="room-card__heading heading">Эконом плюс</h2>
+            <dl class="room-card__characteristics">
+              <div>
+                <dt class="room-card__characteristic-name">Размеры (ШхГхВ) - </dt>
+                <dd class="room-card__characteristic-value">100х125х180 см</dd>
+              </div>
+              <div>
+                <dt class="room-card__characteristic-name">Площадь - </dt>
+                <dd class="room-card__characteristic-value">1,13 м2</dd>
+              </div>
+              <div class="room-card__characteristic-icon">
+                <dt class="room-card__characteristic-name">Оснащение номера</dt>
+                <dd class="room-card__characteristic-value room-card__characteristic-value_icon"> <img src="images/slashed-zero.png"></dd>
+              </div>
+              <div>
+                <dt class="room-card__characteristic-name">Цена за сутки: </dt>
+                <dd class="room-card__characteristic-value room-card__characteristic-value_cost">250₽</dd>
+              </div>
+            </dl>
+            <div class="room-card__bottom">
+              <button class="button button_primary room-card__button">Забронировать</button>
+            </div>
+          </article>
+        </li>
+        <li class="rooms-list__item">
+          <article class="room-card"><img class="room-card__image" src="images/comfort-cover.png" alt="">
+            <h2 class="room-card__heading heading">Комфорт</h2>
+            <dl class="room-card__characteristics">
+              <div>
+                <dt class="room-card__characteristic-name">Размеры (ШхГхВ) - </dt>
+                <dd class="room-card__characteristic-value">90х100х180 см</dd>
+              </div>
+              <div>
+                <dt class="room-card__characteristic-name">Площадь - </dt>
+                <dd class="room-card__characteristic-value">0,90 м2</dd>
+              </div>
+              <div class="room-card__characteristic-icon">
+                <dt class="room-card__characteristic-name">Оснащение номера</dt>
+                <dd class="room-card__characteristic-value room-card__characteristic-value_icon"> <img src="images/slashed-zero.png"></dd>
+              </div>
+              <div>
+                <dt class="room-card__characteristic-name">Цена за сутки: </dt>
+                <dd class="room-card__characteristic-value room-card__characteristic-value_cost">200₽</dd>
+              </div>
+            </dl>
+            <div class="room-card__bottom">
+              <button class="button button_primary room-card__button">Забронировать</button>
+            </div>
+          </article>
+        </li>
+        <li class="rooms-list__item">
+          <article class="room-card"><img class="room-card__image" src="images/suite-cover.png" alt="">
+            <h2 class="room-card__heading heading">Сьют</h2>
+            <dl class="room-card__characteristics">
+              <div>
+                <dt class="room-card__characteristic-name">Размеры (ШхГхВ) - </dt>
+                <dd class="room-card__characteristic-value">125х125х180 см</dd>
+              </div>
+              <div>
+                <dt class="room-card__characteristic-name">Площадь - </dt>
+                <dd class="room-card__characteristic-value">1,56 м2</dd>
+              </div>
+              <div class="room-card__characteristic-icon">
+                <dt class="room-card__characteristic-name">Оснащение номера</dt>
+                <dd class="room-card__characteristic-value room-card__characteristic-value_icon"> <img src="images/slashed-zero.png"></dd>
+              </div>
+              <div>
+                <dt class="room-card__characteristic-name">Цена за сутки: </dt>
+                <dd class="room-card__characteristic-value room-card__characteristic-value_cost">350₽</dd>
+              </div>
+            </dl>
+            <div class="room-card__bottom">
+              <button class="button button_primary room-card__button">Забронировать</button>
+            </div>
+          </article>
+        </li>
+        <li class="rooms-list__item">
+          <article class="room-card"><img class="room-card__image" src="images/luxury-cover.png" alt="">
+            <h2 class="room-card__heading heading">Люкс</h2>
+            <dl class="room-card__characteristics">
+              <div>
+                <dt class="room-card__characteristic-name">Размеры (ШхГхВ) - </dt>
+                <dd class="room-card__characteristic-value">160х160х180 см</dd>
+              </div>
+              <div>
+                <dt class="room-card__characteristic-name">Площадь - </dt>
+                <dd class="room-card__characteristic-value">2,56 м2</dd>
+              </div>
+              <div class="room-card__characteristic-icon">
+                <dt class="room-card__characteristic-name">Оснащение номера</dt>
+                <dd class="room-card__characteristic-value room-card__characteristic-value_icon"> <img src="images/slashed-zero.png"></dd>
+              </div>
+              <div>
+                <dt class="room-card__characteristic-name">Цена за сутки: </dt>
+                <dd class="room-card__characteristic-value room-card__characteristic-value_cost">500₽</dd>
+              </div>
+            </dl>
+            <div class="room-card__bottom">
+              <button class="button button_primary room-card__button">Забронировать</button>
+            </div>
+          </article>
+        </li>
+        <li class="rooms-list__item">
+          <article class="room-card"><img class="room-card__image" src="images/super-luxury-cover.png" alt="">
+            <h2 class="room-card__heading heading">Супер-Люкс</h2>
+            <dl class="room-card__characteristics">
+              <div>
+                <dt class="room-card__characteristic-name">Размеры (ШхГхВ) - </dt>
+                <dd class="room-card__characteristic-value">180х160х180 см</dd>
+              </div>
+              <div>
+                <dt class="room-card__characteristic-name">Площадь - </dt>
+                <dd class="room-card__characteristic-value">2,88 м2</dd>
+              </div>
+              <div class="room-card__characteristic-icon">
+                <dt class="room-card__characteristic-name">Оснащение номера</dt>
+                <dd class="room-card__characteristic-value room-card__characteristic-value_icon"> <img src="images/slashed-zero.png"></dd>
+              </div>
+              <div>
+                <dt class="room-card__characteristic-name">Цена за сутки: </dt>
+                <dd class="room-card__characteristic-value room-card__characteristic-value_cost">600₽</dd>
+              </div>
+            </dl>
+            <div class="room-card__bottom">
+              <button class="button button_primary room-card__button">Забронировать</button>
+            </div>
+          </article>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<article class="rooms-promo container">
+  <h2 class="rooms-promo__heading heading">Каждый 7-й день <span class="rooms-promo__title-span">бесплатно!</span></h2>
+  <P class="rooms-promo__paragraph">Акция действует при размещении в номерах “Люкс” и “Супер-Люкс” </P>
+  <button class="rooms-promo__button button button_secondary">Забронировать</button>
+</article>
+<article class="contact">
+  <div class="container contact__container">
+    <h2 class="contact__heading heading">Как нас найти</h2>
+    <dl class="contact__characteristics">
+      <div>
+        <dt class="contact__characteristic-name">Адрес     </dt>
+        <dd class="contact__characteristic-value">
+          Санкт-Петербург, <br>ул Большая Конюшенная, д 19</dd>
+      </div>
+      <div>
+        <dt class="contact__characteristic-name">Режим работы</dt>
+        <dd class="contact__characteristic-value">Ежедневно, с 9:00 до 20:00</dd>
+      </div>
+      <div>
+        <dt class="contact__characteristic-name">Телефон</dt>
+        <dd class="contact__characteristic-value">8 (800) 333-55-99</dd>
+      </div>
+      <div>
+        <dt class="contact__characteristic-name">E-mail</dt>
+        <dd class="contact__characteristic-value">info@cat-hotel.ru </dd>
+      </div>
+      <div>
+        <dt class="contact__characteristic-name">Социальные сети</dt>
+        <dd class="contact__links"> <a class="contact__link contact__link_facebook" href="#"></a><a class="contact__link contact__link_instagram" href="#"></a><a class="contact__link contact__link_vkontacte" href="#"></a></dd>
+      </div>
+    </dl>
+  </div><img src="images/map.jpg" alt="карта">
+</article></main>
+<footer class="page-footer">
+  <div class="page-footer__footer-top container"><img src="images/logo.svg" alt="логотип">
+    <nav>
+      <ul class="page-footer__main-nav">
+        <li> <a class="page-footer__link" href="#">Почему мы?</a></li>
+        <li> <a class="page-footer__link" href="#">Номера</a></li>
+        <li> <a class="page-footer__link" href="#">Отзывы</a></li>
+        <li> <a class="page-footer__link" href="#">Как нас найти</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="page-footer__copyright">
+    <div class="page-footer__container container">
+      <p class="page-footer__paragraph">© 2019 Все права защищены</p>
+      <p class="page-footer__paragraph">Политика конфиденциальности</p>
+    </div>
+  </div>
+</footer><script src="/koteyka/scripts/main-a993da20cafb23c9f53c.js"></script><script src="/koteyka/scripts/styles-42872b73aa90717afeb2.js"></script></body>
+</html>
