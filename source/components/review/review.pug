@@ -1,6 +1,6 @@
 mixin review({ text, name, date })
     blockquote.review__quote
-        p.reviews__paragraph #{text}    
-        footer.reviews__basement
-            cite  #{name}
+        p.review__paragraph #{text}    
+        footer.review__basement
+            cite.review__cite  #{name}
             time  #{date}
