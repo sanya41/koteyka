@@ -6,11 +6,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
-<link href="/koteyka/main/stylesheets/styles-f21ce7f49ff0d51908b0.css" rel="stylesheet"></head>
+<link href="/koteyka/main/stylesheets/styles-70e275d6503f7a4483e8.css" rel="stylesheet"></head>
 <body><header class="page-header">
-<div class="container page-header__header-top">
+<div class="page-header__header-top container">
 <a href="/koteyka/main/">
-<img src="images/logo.svg" alt="логотип">
+<img class="page-header__logo" src="images/logo.svg" alt="логотип">
 </a>
 <nav>
 <ul class="page-header__main-nav">
@@ -69,15 +69,15 @@
         <nav class="rooms__box">
           <h3 class="rooms__title">Эконом плюс</h3>
           <dl class="rooms__characteristics">
-            <div>
+            <div class="rooms__characteristics-item">
               <dt class="rooms__characteristic-name">Площадь</dt>
               <dd class="rooms__characteristic-value">- 0,90 м2</dd>
             </div>
-            <div>
+            <div class="rooms__characteristics-item">
               <dt class="rooms__characteristic-name">Размеры (ШхГхВ)</dt>
               <dd class="rooms__characteristic-value">— 90х100х180 см</dd>
             </div>
-            <div>
+            <div class="rooms__characteristics-item">
               <dt class="rooms__characteristic-name">Цена за сутки: </dt>
               <dd class="rooms__characteristic-value">200₽</dd>
             </div>
@@ -138,44 +138,46 @@
   </div>
 </article>
 <article class="reviews">
-  <h2 class="reviews__heading heading">Отзывы</h2>
-  <ul class="reviews__slider">
-    <li class="reviews__slide">
-      <blockquote class="review__quote">
-        <p class="reviews__paragraph">Первый раз пришлось оставить нашего котика в гостинице, очень переживали. Администратор Мария каждый день высылала нам фото нашего питомца, рассказывала, как он себя чувствует. И мы и котик остались очень довольны!    </p>
-        <footer class="reviews__basement">
-          <cite> Валерия Гришаева</cite>
-          <time> 15 ноября, 2019</time>
-        </footer>
-      </blockquote>
-    </li>
-    <li class="reviews__slide">
-      <blockquote class="review__quote">
-        <p class="reviews__paragraph">Гостиницу для питомцев нам посоветовали друзья. Они всегда оставляют здесь своего кота, когда уезжают. В “Котейке” очень хорошо заботятся о питомцах, в гостинице очень чисто. Всем рекомендую! Будем обращаться еще.    </p>
-        <footer class="reviews__basement">
-          <cite> Екатерина Минаева</cite>
-          <time> 10 октября, 2019</time>
-        </footer>
-      </blockquote>
-    </li>
-    <li class="reviews__slide">
-      <blockquote class="review__quote">
-        <p class="reviews__paragraph">Мой кот — настоящая привереда, угодить ему сложно. У меня были особые требования к уходу за ним, и “Котейка” отлично справились. Я часто наблюдал по видео за питомцем со своего телефона, это очень удобно.     </p>
-        <footer class="reviews__basement">
-          <cite> Павел Нечаев</cite>
-          <time> </time>
-        </footer>
-      </blockquote>
-    </li>
-  </ul>
-  <div class="rooms__buttons-dot">
-    <button class="rooms__button-dot rooms__button-dot_but-1"></button>
-    <button class="rooms__button-dot rooms__button-dot_but-2"></button>
-    <button class="rooms__button-dot rooms__button-dot_but-3"></button>
-  </div>
-  <div class="rooms__arrows">
-    <button class="rooms__arrow rooms__arrow_left"></button>
-    <button class="rooms__arrow rooms__arrow_right"></button>
+  <div class="reviews__container container">
+    <h2 class="reviews__heading heading">Отзывы</h2>
+    <ul class="reviews__slider">
+      <li class="reviews__slide">
+        <blockquote class="review__quote">
+          <p class="review__paragraph">Первый раз пришлось оставить нашего котика в гостинице, очень переживали. Администратор Мария каждый день высылала нам фото нашего питомца, рассказывала, как он себя чувствует. И мы и котик остались очень довольны!    </p>
+          <footer class="review__basement">
+            <cite class="review__cite"> Валерия Гришаева</cite>
+            <time> 15 ноября, 2019</time>
+          </footer>
+        </blockquote>
+      </li>
+      <li class="reviews__slide">
+        <blockquote class="review__quote">
+          <p class="review__paragraph">Гостиницу для питомцев нам посоветовали друзья. Они всегда оставляют здесь своего кота, когда уезжают. В “Котейке” очень хорошо заботятся о питомцах, в гостинице очень чисто. Всем рекомендую! Будем обращаться еще.    </p>
+          <footer class="review__basement">
+            <cite class="review__cite"> Екатерина Минаева</cite>
+            <time> 10 октября, 2019</time>
+          </footer>
+        </blockquote>
+      </li>
+      <li class="reviews__slide">
+        <blockquote class="review__quote">
+          <p class="review__paragraph">Мой кот — настоящая привереда, угодить ему сложно. У меня были особые требования к уходу за ним, и “Котейка” отлично справились. Я часто наблюдал по видео за питомцем со своего телефона, это очень удобно.     </p>
+          <footer class="review__basement">
+            <cite class="review__cite"> Павел Нечаев</cite>
+            <time> </time>
+          </footer>
+        </blockquote>
+      </li>
+    </ul>
+    <div class="reviews__buttons-dot">
+      <button class="reviews__button-dot reviews__button-dot_but-1"></button>
+      <button class="reviews__button-dot reviews__button-dot_but-2"></button>
+      <button class="reviews__button-dot reviews__button-dot_but-3"></button>
+    </div>
+    <div class="reviews__arrows">
+      <button class="reviews__arrow reviews__arrow_left"></button>
+      <button class="reviews__arrow reviews__arrow_right"></button>
+    </div>
   </div>
 </article>
 <article class="contact">
