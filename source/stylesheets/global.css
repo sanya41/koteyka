@@ -38,6 +38,12 @@ body {
     background-position: 95%; 
 }
 
+.button_small {
+    padding: 15px 80px 15px 51px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
 .button_secondary {
     background-image: url("/images/paw.png");
     background-color: #fff;

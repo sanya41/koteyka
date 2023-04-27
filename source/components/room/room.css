@@ -35,6 +35,8 @@
 
 .product-card__heading {
     margin: 0;
+    line-height: 43px;
+    font-weight: 700;
 }
 
 .product-card__characteristics {

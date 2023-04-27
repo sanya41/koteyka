@@ -13,11 +13,14 @@
 
 .promo__heading {
     font-size: 62px;
-    margin: 0;
+    line-height: 19px;
+    margin-top: 25px;
+    margin-bottom: 30px
 }
 
 .promo__paragraph {
     margin: 0;
+    line-height: 17px;
 }
 
 .promo__cite {
@@ -25,10 +28,11 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+    margin: 0;
 }
 
 .promo__button {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .promo__button:hover {

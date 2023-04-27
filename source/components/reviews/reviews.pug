@@ -2,29 +2,30 @@ include ../review/review.pug
 
 mixin reviews()   
   article.reviews
-    h2.reviews__heading.heading Отзывы
-    ul.reviews__slider
-      li.reviews__slide
-        +review({
-          text: 'Первый раз пришлось оставить нашего котика в гостинице, очень переживали. Администратор Мария каждый день высылала нам фото нашего питомца, рассказывала, как он себя чувствует. И мы и котик остались очень довольны!',
-          name: 'Валерия Гришаева',
-          date: '15 ноября, 2019'
-        })
-      li.reviews__slide
-        +review({
-          text: 'Гостиницу для питомцев нам посоветовали друзья. Они всегда оставляют здесь своего кота, когда уезжают. В “Котейке” очень хорошо заботятся о питомцах, в гостинице очень чисто. Всем рекомендую! Будем обращаться еще.',
-          name: 'Екатерина Минаева',
-          date: '10 октября, 2019'
-        })
-      li.reviews__slide
-        +review({
-            text: 'Мой кот — настоящая привереда, угодить ему сложно. У меня были особые требования к уходу за ним, и “Котейка” отлично справились. Я часто наблюдал по видео за питомцем со своего телефона, это очень удобно. ',
-            name: 'Павел Нечаев'
-        })
-    div.rooms__buttons-dot
-        button.rooms__button-dot.rooms__button-dot_but-1
-        button.rooms__button-dot.rooms__button-dot_but-2
-        button.rooms__button-dot.rooms__button-dot_but-3
-    div.rooms__arrows
-        button.rooms__arrow.rooms__arrow_left
-        button.rooms__arrow.rooms__arrow_right
+    div.reviews__container.container
+      h2.reviews__heading.heading Отзывы
+      ul.reviews__slider
+        li.reviews__slide
+          +review({
+            text: 'Первый раз пришлось оставить нашего котика в гостинице, очень переживали. Администратор Мария каждый день высылала нам фото нашего питомца, рассказывала, как он себя чувствует. И мы и котик остались очень довольны!',
+            name: 'Валерия Гришаева',
+            date: '15 ноября, 2019'
+          })
+        li.reviews__slide
+          +review({
+            text: 'Гостиницу для питомцев нам посоветовали друзья. Они всегда оставляют здесь своего кота, когда уезжают. В “Котейке” очень хорошо заботятся о питомцах, в гостинице очень чисто. Всем рекомендую! Будем обращаться еще.',
+            name: 'Екатерина Минаева',
+            date: '10 октября, 2019'
+          })
+        li.reviews__slide
+          +review({
+              text: 'Мой кот — настоящая привереда, угодить ему сложно. У меня были особые требования к уходу за ним, и “Котейка” отлично справились. Я часто наблюдал по видео за питомцем со своего телефона, это очень удобно. ',
+              name: 'Павел Нечаев'
+          })
+      div.reviews__buttons-dot
+          button.reviews__button-dot.reviews__button-dot_but-1
+          button.reviews__button-dot.reviews__button-dot_but-2
+          button.reviews__button-dot.reviews__button-dot_but-3
+      div.reviews__arrows
+          button.reviews__arrow.reviews__arrow_left
+          button.reviews__arrow.reviews__arrow_right

@@ -44,6 +44,11 @@
 
 .rooms__characteristics {
     margin: 0;
+    line-height: 15px;
+}
+
+.rooms__characteristics-item:not(:last-child) {
+    margin-bottom: 20px;
 }
 
 .rooms__characteristic-name {
@@ -51,7 +56,6 @@
     background-image: url(images-rooms/Ellipse.png);
     background-repeat: no-repeat;
     background-position: 0 center;
-    margin-bottom: 20px;
     padding-left: 20px;
 }
 
@@ -60,9 +64,6 @@
    margin-left: 0;
 }
 
-.rooms__characteristic-name:last-child {
-    padding-bottom: 0;
-}
 
 .rooms__button {
     margin-top: 30px;
